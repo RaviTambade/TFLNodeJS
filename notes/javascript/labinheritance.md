@@ -6,7 +6,6 @@ Below is the **JavaScript (ES6 / Node.js) conversion** of your **Lab 4**, keepin
 
 **Designing an Employee Hierarchy using Abstraction, Inheritance, and Polymorphism (JavaScript)**
 
----
 
 ## 🎯 Lab Objective
 
@@ -20,7 +19,6 @@ By the end of this lab, students will be able to:
 * Demonstrate **runtime polymorphism**
 * Model a **real-world HR system**
 
----
 
 ## 🧠 Concepts Covered (JavaScript Mapping)
 
@@ -33,8 +31,6 @@ By the end of this lab, students will be able to:
 | Polymorphism       | Base reference → derived object       |
 | ToString()         | `toString()`                          |
 | GetType()          | `constructor.name`                    |
-
----
 
 ## 🏗 System Design Overview
 
@@ -54,7 +50,6 @@ SalesManager
 * `SalesEmployee` → Employee with sales targets
 * `SalesManager` → Senior role with bonus
 
----
 
 ## 📁 Step 1: Create a New Node.js Project
 
@@ -63,8 +58,6 @@ mkdir HRApp
 cd HRApp
 npm init -y
 ```
-
----
 
 ## 📁 Step 2: Create HR Folder and Files
 
