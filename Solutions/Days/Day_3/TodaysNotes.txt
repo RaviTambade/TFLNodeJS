@@ -1,0 +1,346 @@
+
+
+Welcome to  MEAN Fullstack Bootcamp
+
+Good morning.
+
+
+A  new start with new experience.
+
+Having music along with learning is best , I feel.
+I hope you also like this new approach.
+
+
+	Agenda for Today:
+
+			Only Javascript Programming 
+			Art of Programming
+			FullStack Application Development
+			Modular Approach for building solution.
+			Ofcourse along with Node JS Runtime
+
+
+	Pre-requisite:
+			Your Curiocity and try out mindset
+			And Trust 
+
+
+	So Welcome to MEAN Stack to its Foundation, you know what I am talking about  
+
+			Javascript Programming without Browser
+					       without HTML
+					       without CSS
+					       without frontEnd
+					       with Core Programming
+
+
+
+	Compilation: Compile time
+		    at the time of Compilation
+		    a process of converting Source code into Exeuctable Code
+		
+			C lang---- .c file--------C / C++ compiler---------machine code (.exe file)
+						  (cl.exe)
+			hello.c---------------cl.exe----------------------hello.exe (self executable)
+									  (contains machine code)
+	
+	Execution:  Runtime
+		  at the time of running application
+		  at the time of executing application
+
+		  Executing executable code with the help of Operating System and hardware
+		  Executable file is submitted for execution.
+		  Operating System  launches a Kernel Object ( Process)
+
+	Compile time:
+		
+		
+	Runtime:
+		
+		Each Runtime is a process running on the top of Operating System.
+
+		 
+		1.Node JS---------is responsible for executing Javascript code (.js)  by 
+				    converting it into machine code and running through OS.
+			(node.exe)-----Runtime process
+
+		2.Python-----------is responsible for executing Python code (.py) by 
+				    converting it into machine code and running through OS.
+			(python.exe)----Runtime process
+
+
+		 java compiler: javac.exe
+				 .java file into .class file
+		 
+		 3.JVM ------------is responsible for executing  .class file(byte code) code by 
+				    converting it into machine code and running through OS.
+			
+			(java.exe)------java Runtime		 
+
+		 4.C# compiler: csc.exe 		
+				.cs file into  .dll file
+
+	         CLR-------------is responsible for exeucting Compiled .NET Code( IL Code) code by
+				    converting it into machine code and running through OS.
+		 
+			(dotnet.exe)------.net Runtime
+
+
+
+
+	To run javascript:
+			   you just need Javascript Engine.
+			   Javascript Engine is a part of NodeJS Runtime (node.exe)
+
+
+	Javascript Engine:
+			 consist of interpreter ( intepretes code line  into exeuctable instruction which are run by OS Process)
+
+
+
+	We are here to build Online Application
+	We are here to build FullStack Application
+	We are here to build Distributed Application
+	We are here to build Complete Web Application
+
+
+	
+
+
+End User
+Consumer-------tool
+		Browser--------------connect--------------------WebServer
+									Web Application
+
+		<----Client Side----->				<-------------------Server Side---------->
+Enduser		Chrome-----url---------internet-----------------Web Server------------Application Server---------Database Server
+		Edge						Web app---------------Application Services--------Database
+		Saffari						Node JS			Node jS			  MySQL software
+		Mozilla						js code
+								inbult libraries
+									security
+									session mgmt
+									middleware code																Request processing
+									Response generation
+									File IO
+									pipeline for code execution
+										  					  MongoDB software
+		FireFox
+			inbuilt js Engine
+
+
+
+Node JS  SDK:
+	Software Development Kit ( tool Kit)
+		set of tools
+				compiler, linker====> build tool, 
+				debugger,
+				Testing tool,
+				Proformance Monitor Tool
+				Package Manager ( java-------- maven
+						  dotnet------ nuget package manager
+						  python------ pip
+						  andriod----- graddle
+						  nodejs------ npm 
+		set of Libraries
+				Reusable Modules
+						(C/C ++  stdio.h, iostream.h, conio.h
+							 stdio.lib,iostream.lib,conio.lib)
+						 (Java   util.*, java.io.* ------ 
+									.class files .jar files)
+						 (.net    namespaces
+									.dlls assemblies)
+						
+						 (python numpy, tensorflow, mat , 
+									 python files)
+
+						 (Node JS
+							  fs, http, events, etc.
+							  Node Modules)	
+				
+				
+________________________________________________________________________________________________________________________________________________
+
+JavaScript Programming
+
+	Defines tasks
+	For Tasks we need write programs
+
+
+
+IT Solution--------Application
+		Application---Modules------
+				     ------Programs-------Code segments
+						   -------Code segments
+						   -------Code segments----- varialble declaration
+								 	     value assignments
+									     conditional statements
+									     Inbuilt function invoke  console.log("ddddddd);
+												      setInterval(2000,....);
+
+				
+
+
+
+
+Online Solution------
+		  -----Web Application
+					------number of 
+					      Modules-----------set of Programs------Code Segments-
+
+
+
+Define your Project:
+
+
+	Domain:ECommerce Domain
+	Solution:Fullstack Online Shopping Portal
+
+
+
+			Website
+				contains web content (static content)
+			Portal
+				contains dynamic web contents
+					(forms)
+					(fourms)
+					Personalized content 
+						
+
+	FullStacK:
+			MEAN FullStack
+
+			Node JS
+
+
+
+Online Shopping Portal using MEAN Stack
+		What are  things required out of box ?
+		What are things to be developed being as developer ?
+
+What are  things required out of box ?
+
+		Distributed Solution
+
+
+Client Application----------------------------------------------Server Application-------------------- MEAN Stack
+								
+Browser(Chrome)-----internet					Web Server (IIS Server			We will build our own Web Server using JS
+								         TOMCat Apache
+									 Xamp, Wmap,
+									 nginx servers)
+Url.
+Access to application						Web Application				ECommerce Application Modules
+														
+	
+
+
+
+Core Functionalilities of Ecommerce Solution
+
+		ECommerce solution would contain reusable loosely coupled modules
+
+		Non Functional Requirements
+
+			Best Performance
+			Quick loading content
+			Security
+			latest content
+			Responsive
+		
+		Functional  Requirements
+			Modularity:
+				decouple application functionalities in the form of resuable units (Modules)
+			
+			1.Product Catalog
+					View products 
+					View product details
+					Search 
+			2.Inventory
+					Add , remove, update product
+			
+			3.Shopping Cart
+					Add to Cart
+					Remove from Cart
+					Show all items from cart
+
+			4.OrderProcessing
+					Create Order
+					GetOrderDetails
+					CancelOrder
+					ApproveOrder
+
+		        5.Payment Gateway
+
+			6.Membership & Roles Managment
+
+			7.Shipping
+
+			8.CRM (Customer Relational Management)
+					Customer Profile
+
+			Feedback			
+
+			
+
+
+Build Server:
+	Write Program to run server.
+	
+What do you mean by Server ?
+
+	Client Application---------Browser (Rich Client Application)
+	Server Applicaiton---------Build Server
+				    Runtime: Node JS
+				    reusable modules (Libraries)
+							http, fs, events, etc.
+				    server will be built by Javascript Program
+				    server.js
+
+
+
+write Server side Javascript programs to build server and host Web pages of Web Application.
+
+Start learning basic javascript syntax to develop serverbased applciation........
+
+
+
+
+
+NodeJS : Yes
+
+Visual Code: Yes
+		javascript  files
+		json file
+		xml files
+		html files
+		css files
+		create folder to store images
+		create folders to store video files
+
+
+
+IDE Tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

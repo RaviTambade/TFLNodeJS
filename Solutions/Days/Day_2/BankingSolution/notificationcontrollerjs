@@ -1,0 +1,10 @@
+//helper library
+
+exports.sendEmail=function(){   
+    console.log("Your Account details has been sent to your registered email id");
+}
+
+exports.sendSMS=function(){
+    console.log("Your Account details has been sent to your Mobile Number");
+
+}

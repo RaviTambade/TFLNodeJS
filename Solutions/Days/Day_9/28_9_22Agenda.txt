@@ -1,0 +1,214 @@
+
+
+	SQL Databases
+			(MYSQL)
+			Transactional database:
+				tables with PK and FK
+
+			RDBMS Database
+			Tables with Relations
+
+	NoSQL Database
+			MongoDB
+			Collections 
+				will contain document ( JSON object)
+			[
+				{
+				 "id":45,
+				 "title":"Samsung galaxy 4",
+				  "comments":[
+						{ "user": "ravi", "comment": "The product is outstanding"},
+						 { "user": "sachin",   "comment": "The product is ok"}
+					         ]
+				 },
+
+				{
+				 "id":45,
+				 "title":"Samsung galaxy 4",
+				  "comments":[
+						{ "user": "ravi", "comment": "The product is outstanding"},
+						 { "user": "sachin",   "comment": "The product is ok"}
+					         ]
+				 }
+
+			  ]
+
+
+
+
+	Webserver Data:
+
+			user sessions
+					sessionid 23
+						`  Cart
+								Items
+					session 34
+						 cart			
+								Items
+
+
+
+
+
+
+
+	Database Server Data
+
+
+	Master table
+	
+	users
+		userid, email, address, name, contactnumber, password,role
+		1	ravi.tambade@transflower.in	 ravi	9881735801  seed	 C
+		2	reena.pande@transflower.in	 reena      9881735802  seed	 C
+		3	ravi.tambade@transflower.in	 ravi	9881675673  seed	 V
+		4	chetan.patil@dhl.com	 chetan 	9886756676  seed	 V
+			
+
+	Sellers-------------------seller id, userid, gstin,
+	Customers-------------customerid,billingAddress, deliveryAddress,userid
+	Shippingvendors------------------vendodrid,userid
+
+	
+	 Products
+		productid, 	title, 		description,		quantity, 		unitprice,  	category,		sellerid
+		1	 	iphonn4		today best Smart phone	400		50000		smart phone	67
+
+	
+
+	Orders
+		orderid, orderdate, userid,status, totalAmount
+
+		 1	22/9/22	1         processed
+		 2	22/9/22	1         inprogress
+		 3	23/9/22	2         approved
+
+	ItemDetails
+		orderdetailid,orderid,productid,qutantity
+		 1	    1	5	4
+		 2	    1	8	1
+		 3	    1	8	1
+
+ 		 4	    3	78	3
+		 5	    3	22	2
+		 6	    3	12	8
+
+		 7	    2	65	2
+		 8	    2	84	8
+		 9	    2	78	4
+
+
+	Payments
+
+
+		paymentid  paymentdate   orderid  transactionid  paymentMode  Amount
+
+
+
+
+
+http://api/orders/:id/approve
+
+	Cart
+	items
+	orders
+
+
+
+
+	Web is based on networking protocol HTTP:
+	
+
+	
+	
+	
+
+
+	Why state management  needed ?
+	
+	Every Web Application is state less by it's nature.
+
+	But to create online application.
+		we must maintain user specific data across multiple requests
+
+
+	state management  is implemented in Web Technology by using two ways:
+
+		1.Client Side State Management:
+			cookies
+			query string
+			 form collection
+			 local storage
+			 session storage
+			
+
+		2.Server Side State Management:
+			Session-----------
+			Database
+
+
+
+
+
+A website is based on the HTTP protocol. HTTP is a stateless protocol which means at the end of every request and response cycle, the client and the server forget about each other.
+
+This is where the session comes in. A session will contain some unique data about that client to allow the server to keep track of the user’s state. In session-based authentication, the user’s state is stored in the server’s memory or a database.
+
+Session handling in any web application is very important and is a must-have feature, without it, we won’t be able to track users and it’s activity.
+
+
+
+How sessions works
+When the client makes a login request to the server, the server will create a session and store it on the server-side. When the server responds to the client, it sends a cookie. This cookie will contain the session’s unique id stored on the server, which will now be stored on the client. This cookie will be sent on every request to the server.
+
+We use this session ID and look up the session saved in the database or the session store to maintain a one-to-one match between a session and a cookie. This will make HTTP protocol connections stateful.
+
+
+The difference between session and cookie
+
+As you might have noticed, we’ve introduced a new concept called a cookie. We need to answer the question of what is the difference between a session and a cookie.
+
+A cookie is a key-value pair that is stored in the browser. The browser attaches cookies to every HTTP request that is sent to the server.
+
+In a cookie, you can’t store a lot of data. A cookie cannot store any sort of user credentials or secret information. If we did that, a hacker could easily get hold of that information and steal personal data for malicious activities.
+
+On the other hand, the session data is stored on the server-side, i.e., a database or a session store. Hence, it can accommodate larger amounts of data. To access data from the server-side, a session is authenticated with a secret key or a session id that we get from the cookie on every request.
+
+
+
+The following libraries will help us setup a Node.js session.
+
+
+Express - a web framework for Node.js used to create HTTP web servers. Express provides an easy-to-use API to interact with the webserver.
+Express-session - an HTTP server-side framework used to create and manage a session middleware. This tutorial is all about sessions. Thus Express-session library will be the main focus.
+Cookie-parser - used to parse cookie header to store data on the browser whenever a session is established on the server-side.
+
+
+Express-session options and how to use them
+
+const oneDay = 1000 * 60 * 60 * 24;
+app.use(sessions({
+    secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
+    saveUninitialized:true,
+    cookie: { maxAge: oneDay },
+    resave: false 
+}));
+
+
+secret - a random unique string key used to authenticate a session. It is stored in an environment variable and can’t be exposed to the public. The key is usually long and randomly generated in a production environment.
+
+resave - takes a Boolean value. It enables the session to be stored back to the session store, even if the session was never modified during the request. This can result in a race situation in case a client makes two parallel requests to the server. Thus modification made on the session of the first request may be overwritten when the second request ends. The default value is true. However, this may change at some point. false is a better alternative.
+
+saveUninitialized - this allows any uninitialized session to be sent to the store. When a session is created but not modified, it is referred to as uninitialized.
+
+cookie: { maxAge: oneDay } - this sets the cookie expiry time. The browser will delete the cookie after the set duration elapses. The cookie will not be attached to any of the requests in the future. In this case, we’ve set the maxAge to a single day as computed by the following arithmetic.
+
+
+
+Setting up the session middleware
+
+To initialize the session, we will set the session middleware inside the routes of the individual HTTP requests.
+
+When a client sends a request, the server will set a session ID and set the cookie equal to that session ID. The cookie is then stored in the set cookie HTTP header in the browser. Every time the browser (client) refreshes, the stored cookie will be a part of that request.
+
+	

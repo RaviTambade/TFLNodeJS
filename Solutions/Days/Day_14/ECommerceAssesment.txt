@@ -1,0 +1,47 @@
+
+
+
+
+	Tasks:
+
+	  Deadline:
+		Monday (10/10/2022)   8:00 am
+
+		Assessment will be done about your github repo.
+		1.Update github repository .Using two sub folders:
+			businesssenatio.txt
+			db.sql ( CREATE Table Commands)
+			SQL.sql ( possible SQL statements against ecommerce db of Mysql
+			storedprocedures.sql-------------
+
+			1. RESTWebAPP-------------------------------rest api, controllers, models, services, 
+						    Object Oriented Approach
+						    session management,
+						    JWT 
+						    Middleware Pipline
+						    Cors
+
+			2.FrontEndApp--------------------------------list.html, details.html,addtocart.html,  cart.html
+					                      client side  js  will contain ....... ajax call , dom data setting to paragraph, text box, label
+						     Rendering and external data Access---------functional approach
+					  
+	
+		2.Authentication will be done against mySQl DB.
+		3.JWT Token will be used for authorized Opeartion Handling.
+		4.Basic working demo of Products List and Product details showing in list.html and details.html
+		5.Basic working demo of adding product from details.html  to shoppingcart.
+		6.Adding and removing item from users shoppingcart
+		7.on Button click in shopping.html to fundstransfer and linking funds transfer logic 
+		8.FundsTransfer REST API in github for payment processing
+		9.Onsuccessfull payment product inventory updation, orderstatus changed, Account reflection of customer and 
+		Seller.
+		10.simple revenue.html page to show textual data or json object about Total revenue, Product sale,Customers List, Sellers List
+
+		There will be technical interview conducted by me for each participants against this code, concept, applied in ECommerce Solution.
+
+		Naming conventions
+		Meaningfull comments for code base
+		Code indentation
+		Folder Strcture
+		POST Man API Testing
+		

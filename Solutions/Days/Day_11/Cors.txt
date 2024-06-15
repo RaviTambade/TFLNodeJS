@@ -1,0 +1,171 @@
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+
+Cross-Origin Resource Sharing (CORS) is a protocol that enables scripts running on a browser client to interact with resources from a different origin. This is useful because, thanks to the same-origin policy followed by XMLHttpRequest and fetch, JavaScript can only make calls to URLs that live on the same origin as the location where the script is running. For example, if a JavaScript app wishes to make an AJAX call to an API running on a different domain, it would be blocked from doing so thanks to the same-origin policy.
+
+
+CORS - Why Is It Needed?
+Most of the time, a script running in the user's browser would only ever need to access resources on the same origin (think about API calls to the same backend that served the JavaScript code in the first place). So the fact that JavaScript can't normally access resources on other origins is a good thing for security.
+
+
+In this context, "other origins" means the URL being accessed differs from the location that the JavaScript is running from, by having:
+	a different scheme (HTTP or HTTPS)
+	a different domain
+	a different port
+
+However, there are legitimate scenarios where cross-origin access is desirable or even necessary. For example, if you're running a React SPA that makes calls to an API backend running on a different domain. Web fonts also rely on CORS to work.
+
+
+Identifying a CORS Response
+When a server has been configured correctly to allow cross-origin resource sharing, some special headers will be included. Their presence can be used to determine that a request supports CORS. Web browsers can use these headers to determine whether or not an XMLHttpRequest call should continue or fail.
+
+
+
+There are a few headers that can be set, but the primary one that determines who can access a resource is Access-Control-Allow-Origin. This header specifies which origins can access the resource. For example, to allow access from any origin, you can set this header as follows:
+
+Access-Control-Allow-Origin: *
+
+Or it can be narrowed down to a specific origin:
+
+Access-Control-Allow-Origin: https://example.com
+
+
+Understanding CORS Request Types
+
+
+There are two types of CORS request: "simple" requests, and "preflight" requests, and it's the browser that determines which is used. As the developer, you don't normally need to care about this when you are constructing requests to be sent to a server. However, you may see the different types of requests appear in your network log and, since it may have a performance impact on your application, it may benefit you to know why and when these requests are sent.
+
+
+Simple requests (GET, POST, and HEAD)
+
+The browser deems the request to be a "simple" request when the request itself meets a certain set of requirements:
+
+One of these methods is used: GET, POST, or HEAD
+A CORS safe-listed header is used
+When using the Content-Type header, only the following values are allowed: application/x-www-form-urlencoded, multipart/form-data, or text/plain
+No event listeners are registered on any XMLHttpRequestUpload object
+No ReadableStream object is used in the request
+
+The request is allowed to continue as normal if it meets these criteria, and the Access-Control-Allow-Origin header is checked when the response is returned.
+
+
+Preflight requests (OPTIONS)
+
+If a request does not meet the criteria for a simple request, the browser will instead make an automatic preflight request using the OPTIONS method. This call is used to determine the exact CORS capabilities of the server, which is in turn used to determine whether or not the intended CORS protocol is understood. If the result of the OPTIONS call dictates that the request cannot be made, the actual request to the server will not be executed.
+
+The preflight request sets the mode as OPTIONS and sets a couple of headers to describe the actual request that is to follow:
+
+Access-Control-Request-Method: The intended method of the request (e.g., GET or POST)
+Access-Control-Request-Headers: An indication of the custom headers that will be sent with the request
+Origin: The usual origin header that contains the script's current origin
+
+
+The server will include some Access-Control-* headers within the response to indicate whether the request that follows will be allowed or not. These include:
+
+
+Access-Control-Allow-Origin: The origin that is allowed to make the request, or * if a request can be made from any origin
+Access-Control-Allow-Methods: A comma-separated list of HTTP methods that are allowed
+Access-Control-Allow-Headers: A comma-separated list of the custom headers that are allowed to be sent
+Access-Control-Max-Age: The maximum duration that the response to the preflight request can be cached before another call is made
+
+The response would then be examined by the browser to decide whether to continue with the request or to abandon it.
+
+
+
+
+How to Add CORS to a Nodejs Express App ?
+
+
+const express = require("express");
+const debug = require("debug")("server");
+
+const app = express();
+const port = process.env.SERVER_PORT || 3001;
+
+// NEW - Add CORS headers - see https://enable-cors.org/server_expressjs.html
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
+
+// API endpoint
+app.get("/api/ping", (req, res) => {
+  res.send({
+    msg: "Hello, World"
+  });
+});
+
+app.listen(port, () => debug(`Listening on port ${port}`));
+
+
+
+
+
+
+
+
+What is the Web Storage API?
+The Web Storage API is a set of mechanisms that enable browsers to store key-value pairs. It is designed to be much more intuitive than using cookies.
+
+The key-value pairs represent storage objects, which are similar to objects except they remain intact during page loads, and are always strings. You can access these values like an object or using the getItem() method 
+
+
+
+
+What is the difference between sessionStorage and localStorage?
+
+
+The Web Storage API consists of two mechanisms: sessionStorage and localStorage. Both sessionStorage and localStorage maintain a separate storage area for each available origin for the duration of the page session.
+
+The main difference between sessionStorage and localStorage is that sessionStorage only maintains a storage area while the browser is open (including when the page reloads or restores) while localStorage continues to store data after the browser is closed. In other words, whereas data stored in sessionStorage is cleared when the page is closed, data stored in localStorage does not expire.
+
+
+What is localStorage in JavaScript?
+localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date. This means the data stored in the browser will persist even after the browser window is closed.
+
+
+Where is localStorage stored?
+In Google Chrome, web storage data is saved in an SQLite file in a subfolder in the user’s profile. The subfolder is located at \AppData\Local\Google\Chrome\User Data\Default\Local Storage on Windows machines and ~/Library/Application Support/Google/Chrome/Default/Local Storage on macOS
+
+Firefox saves storage objects in an SQLite file called webappsstore.sqlite, which is also located in the user’s profile folder.
+
+
+What is Window.localStorage?
+
+The localStorage mechanism is available via the Window.localStorage property. Window.localStorage is part of the Window interface in JavaScript, which represents a window containing a DOM document.
+
+The Window interface features a wide range of functions, constructors, objects, and namespaces. Window.localStorage is a read-only property that returns a reference to the local storage object used to store data that is only accessible to the origin that created it.
+
+How does localStorage work?
+To use localStorage in your web applications, there are five methods to choose from:
+
+setItem(): Add key and value to localStorage
+getItem(): This is how you get items from localStorage
+removeItem(): Remove an item by key from localStorage
+clear(): Clear all localStorage
+key(): Passed a number to retrieve the key of a localStorage
+
+
+window.localStorage.setItem('name', 'Obaseki Nosa');
+
+
+window.localStorage.getItem('user');
+
+
+localStorage limitations
+
+As easy as it is to use localStorage, it is also easy to misuse it. The following are limitations, and also ways to NOT use localStorage:
+
+Do not store sensitive user information in localStorage
+It is not a substitute for a server based database as information is only stored on the browser
+localStorage is limited to 5MB across all major browsers
+localStorage is quite insecure as it has no form of data protection and can be accessed by any code on your web page
+localStorage is synchronous, meaning each operation called would only execute one after the other
+
+
+
+

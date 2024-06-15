@@ -1,0 +1,32 @@
+Client Side Rendering:
+
+		ajax
+		fetch
+		Cors 
+
+
+
+
+Fullstack Application Development= Database + Node JS + serverside programming		+ FrontEnd Application Development
+			        mySQL + node js + modules+ express+ DAL+MVC +REST API	 React
+				     +state management				 Angular
+				     +JWT						 Vue
+				     +CORS
+				     +EJS
+				     +NextJS
+
+Front End Development
+
+		UI Navigation ( UI Routing)
+		DataBinding
+		EventBinding
+		Dynamic UI Manipulation( DOM Manipulation)
+		External Data Access
+		Handling async methods
+
+	
+	jQuery+ html + css + javascript DOM
+
+	React  +html + css + javascript
+	Angular +html + css +typescript
+	Vue+html + css + javascript

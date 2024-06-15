@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Site</title>
+    </head>
+    <body>
+        <img src="./images/Transflower.jpg", width="100" height="100"/>
+        <hr/>
+        <a href="/">Home</a> | <a href="/aboutus.html">About us</a>| <a href="/contact.html">Contact us</a>| <a href="/login.html">login</a>
+        <hr/>
+        <h3>Register</h3>
+        <form method="post" action="/api/register">
+            <table>
+                <tr>
+                    <td>Email Address:</td>
+                    <td> <input type="email" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td> <input type="password" name="password"/></td>
+                </tr>
+                <tr>
+                <td>Location</td>
+                    <td> <input type="text" name="location"/></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td> <input type="number" name="age"/></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> <input type="submit"  value="register"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

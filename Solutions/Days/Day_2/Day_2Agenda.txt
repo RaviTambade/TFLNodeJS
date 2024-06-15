@@ -1,0 +1,68 @@
+
+Node JS:
+	1.Install NodeJS 
+	2.Node js folder structure
+	3.Writing simple node js application
+	4.Browser less Javascript coding
+	
+	5.Event Driven Archiecture of Nodejs
+	6.Business scenario to create node js application
+	
+	7.File I/O
+	8.Node JS Creating simple Web Application using Node JS
+
+
+Previous:
+	IT Infrastrcuture:
+		Personal computer-----Desktop Application
+		Netowork Env.	------Distributed Application
+		Distributed systems
+		connected via networking
+		(LAN)
+
+		Internet :-----------Web Application
+	Software was delivered to personal computer as a Product (stand alone:word, excel , powerPoint)
+	Office Apps(Office 365): Software as a Service
+	
+	Cloud Computing:
+
+	Software as a Service(SAAS)------Office 365,			Google Apps			  Amazon ECommerce Portal
+	Platform as a Service (PAAS)-----Microsoft platform services,   Google Platform services	  Amazon Platform Services
+					(Azure Container services)      Kubernetes			  Amazon Container Services
+	Infrastructure as a Service (IAAS)--Microsoft DataCenter	Google Data Centers		  AWS(Amazon web Service)
+					    (Virtualization)		(Virtualization)
+					    (Microsft cloud)		(Google Cloud )			 (Amazon Cloud)
+					    (Azure)			(GCP)				 (AWS)
+
+	Software:
+		System Software
+		Application software
+					Office Application:	
+		
+		
+
+		Desktop App:.exe file along dll files
+
+		Web Apps: (Web sites + Web Services)/Web Server
+
+		Mobile Apps: (.apk) (Smart Apps)
+								
+	application
+	Executables
+	Process
+	Thread
+	
+
+
+	Node Process:
+			Server:
+					Which services
+					a Process	
+					IIS-----process	
+					Tomcat--process		
+					mySQL---process
+					wamp----process
+				a dedicated process continously running and performing tasks
+				independently.
+
+				This process is continously serving by performing operations.

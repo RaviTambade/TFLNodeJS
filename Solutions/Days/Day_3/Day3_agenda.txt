@@ -1,0 +1,93 @@
+loosely coupled , highly cohesive 
+Architecture
+		NTier Architecture
+		one-------Monolithic Architecture---notepad.exe, mspaint.exe
+		Two-------UI Layer----Backend-------SQLPlus
+			  Client -------Server(Thick Server)
+			  mysql workbench-------------mySQL database server
+			  (Thin Client)---------------(Thick server)
+							-Centralized Server
+			   GUI				logic for filtering data
+			   sending request		logic for stored procedure
+			   receiving reposne		logic for Database trigger
+						        logic for function
+		Three Tier Architecture
+			windows app--TCP/IP------app server----TCP/IP----------backend server
+			
+Web Applications
+
+	url of web app
+
+	http://www.amazon.in--------Web------------Website------------ECommerce Logic--------Database
+						   static resources
+						    html, .css,
+						    .js,
+						    bootstrap,etc.
+
+
+
+Full Stack Application Developer
+(Solution Provider)
+(Only javascript)
+Javascript full stack:
+	MEAN JS stack
+	MERN JS stack
+	MEVN JS stack
+
+Node JS
+
+
+									     BI services--    	------Data Analytics----Big Dataa--ML
+									     Business Analytics-----------Data WareHouse   
+									     (Banking Point of view
+									     Rule driven logic
+						(static resources)
+						(hosting of html,css,
+						.js)			     other banking operaion		  ER Realtions
+					       (Web App Services)	     Interest calculation		  Tables, Records
+						Authorization		     Deposit				  PreDefied queries
+						Authentication		     Withdraw				  functions
+HTML Rendering					Caching management	     Account Summary			  Database triggers
+Dynamic HTML Creation				Session State Management     Account Verfication		  Stored procedure
+Dynamic HTML manipulation			Response Generation	     Core App services			  Database Logic
+External data Access (Ajax)			Request Processing
+Browser Application------------- internet--------Web Application--------------Application Server-------------------back end server
+						   (Web Server)
+						 
+						  webserver.js			appserver.js				   MongoDB
+app.js														    JSON collection
+Front End
+UI components JS
+
+
+
+Agenda:
+
+
+	 File IO  ( persistence) Node JS-------fs--------------JSON files
+	 Web App Development     Node JS-------http
+
+		CRUD Operations using Javascript with the help of collections
+								  libraies
+								  Frameworks
+			Data Manipulation(updation, modification, deletion,etc)
+			Data Retrival Opeations (Querying data)
+			insert data
+			delete data
+			update data
+			Get data
+			Filter data
+
+
+
+
+
+		NTier
+
+		
+		Mobile Apps, Windows Apps ( client layer)
+		Web Site( UI + State Management + Caching+ filters,etc) (Web Layer)
+		Web Service Layer (Service Layer)
+		Business Logic Layer(Application)
+		Data Access Layer
+		Data

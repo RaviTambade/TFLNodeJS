@@ -1,0 +1,190 @@
+
+
+Good morning,
+
+
+Agenda:
+	Express JS
+
+	JVM-------------Execution Engine
+			collection classes,
+			file IO classes (libraries)
+			Strusts, Spring MVC, Hibernate, Spring boot  (Framework)
+
+	Node JS---------Runtime (where application are exeucted with the help of engine)
+		        Executione Engine ( node.exe with some predefined node function)
+
+	http,fs,events-------modules----   (node libraries)------------libraries
+	Express JS-----------(module)---   (node libraries)------------Framework
+
+
+	libraries--------set of reusable inbuilt functions,classes, modules
+	Framework---------structure, archtecture, constraints, guidlines
+
+
+
+	Node JS is a fast JavaScript runtime environment that we use to build server-side applications, but it does not know how to perform serving files, handling requests, and handling HTTP methods, so this is where express js comes in.
+
+	Express JS is a Node.js framework designed to build API's web applications cross-platform mobile apps quickly and make node js easy.
+
+What Is Express JS?     
+Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application.
+
+It's a layer built on the top of the Node js that helps manage servers and routes.
+
+
+
+Why Express JS?
+
+Express was created to make APIs and web applications with ease, It saves a lot of coding time almost by half and still makes web and  mobile applications are efficient.
+Another reason for using express is that it is written in javascript as javascript is an easy language even if you don't have a previous knowledge of any language. 
+Express lets so many new developers enter the field of web development.
+
+The reason behind creating an express framework for node js is:
+	Time-efficient
+	Fast 
+	Economical
+	Easy to learn
+	Asynchronous
+
+
+Features of Express JS
+	Fast Server-Side Development 
+	Middleware
+		Middleware is a request handler that has access to the application's request-response cycle.
+	Routing 
+		It refers to how an application's endpoint's URLs respond to client requests.
+
+	Templating 
+		It provides templating engines to build dynamic content on the web pages by creating HTML templates on the server.
+
+
+Advantages of Using Express With Node.js
+	Express is Unopinionated, and we can customize it.
+	For request handling, we can use Middleware.
+	A single language is used for frontend and backend development.
+	Express is fast to link it with databases like MySQL, MongoDB, etc.
+​​	Express allows dynamic rendering of HTML Pages based on passing arguments to templates.
+
+
+Limitations of Express JS
+	Sometimes, there is no structural way to organize things, and the code becomes non-understandable.
+	There are so many issues with callbacks.
+	The error messages that will come are challenging to understand.
+
+
+Installation and the First Program
+To install Express JS on your system first you need to install node js then we will write a command to install express in the terminal.
+
+npm install express
+The express js will be installed in your system.
+
+
+
+server.js code 
+
+
+const express=require('express');  //downloaded module
+const bodyParser=require('body-parser');
+const fs=require('fs');   //inbuilt predefined module
+var app=express();      //getting global object from express module
+//set up middleware
+//we use app.use method to configure middleware for web application
+app.use(bodyParser.json())  ;
+
+app.get('/',(req, res)=>{
+    let htmlString="<h1>Welcome to HR Application</h1>"+
+                   "<hr/>"+
+                    "<ol>"+
+                    "<li> about us </li>"+
+                    "<li> contact us </li>"+
+                    "</ol>";
+    res.send(htmlString);
+});
+app.get('/api/hello',(req,res)=>{
+    res.send("Hello from server");
+});
+
+app.listen(6000);
+console.log("server is listening on port 6000");
+
+______________________________________________________________________________________________________________________________
+
+This is the way we tried yesterday to create web application.
+
+
+	webserver.js
+	const http=require('http');
+	var onReceiveRquest=function(req,res){
+	 	//every incomming http request is intercepted by this call back function
+	 	//call some logic
+		// generate reponse
+		//send response back to client 
+
+	}
+	var serve=http.createServer(onReceiveRequest);
+	server.listen(7000)
+
+
+	future Banking Application will be extended with more functionalilities
+		Non Functional Requirments  will be fullfilled by Application ARchtiecture
+
+			reusbility
+			reliability
+			extensibility
+			Portablility
+			durability, etc.
+
+	 your application should be developed using ready made frameowrk
+	 Framwork:
+			conist of inbuilt reusable functions
+			Rules for using those functions
+			follows proper folder structure for developing applications
+			Methodology for using logical thinking for building solution.
+			consist of 
+
+		design patterns (23 pattern) 
+				Observer pattern
+				singleton pattern
+
+ 
+	
+	Node JS -----Express Framework
+
+	node js ------- runtime engine (node.exe)
+			inbuilt modules -----C:/program files/nodejs/node_modules/
+	npm--------node package manager ( small utility) to download external modules		
+		
+		npm install express--------current folder -------locally downloaded 
+		npm install -g express-----C:\users\ravit\appdata\roaming\npm\express---globally downloaded
+		
+			
+
+
+	npm init -------command is used for creating package.json file
+	npm install express
+
+
+	Ambuj Kumar------------laptop issue-------------------
+	Nidhi------------------electric issue----------------
+
+
+
+
+	login, register task
+	1.kunal
+	2.Rudra
+	3.Diksha
+	4.Amit Thakur
+	5.Shravan 
+	6.Nitin
+	
+
+	update , delete 	
+
+	Kunal, Gurjas, Sehaj
+
+	needhi, 
+
+
+ 

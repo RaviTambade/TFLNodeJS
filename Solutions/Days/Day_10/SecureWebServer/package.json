@@ -1,0 +1,16 @@
+{
+  "name": "securewebserver",
+  "version": "1.0.0",
+  "description": "Simple rest api  for orderprocessing logic using JWT token based authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "author": "Ravi Tambade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

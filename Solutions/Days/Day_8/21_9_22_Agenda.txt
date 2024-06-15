@@ -1,0 +1,137 @@
+Todays agenda:
+		Design Principles
+		Architecture
+		Framework
+		Best Practices of Coding
+
+	Five Days Mini Project
+	
+	No Front End
+
+	Backend application for ECommerce Online
+	Testing tool : post man
+
+	ECommerce:
+		Online Application
+		Users of ECommerce Application:
+
+			actors:Public Access:End users,
+		Secure Access:
+				       Customers,
+				       Sellers,
+				       Delivery Vendor,
+				       staff,
+				       BOD (Board of Directors)	
+		Functionalities ( Features  of eCommerce solution) (RDBMS)----------Transactional data
+										   mySQL
+				Product Catalog 
+				(Inventory mgmt)
+				Shopping Cart
+				Customer Relationship (CRM)
+				Membership and Roles Management
+				Orderprocessing and Billing
+				Payment processing
+				Delivery
+
+								 (Non RDBMS)(NoSQL)-----Analytical data
+											(tree structure)
+											JSON object Model
+											Monogdb
+
+
+
+	End Points
+		
+	/api/login
+	/api/reigiter
+	
+	/api/products
+	/api/products/45
+	/api/productscategories/4
+		
+
+
+Approach:
+
+	Data First Approach
+
+			1.Database creation    ( Database, tables, records)
+			2.Database operations  ( queries, DML, inert, update, delete, get ----SQL)
+						(nested queries, join queries,
+						 Stored Procedures)
+
+			3.Database Access Logic layer(DAL)  (DAO)
+			4.Business Logic Layers (BLL)
+			5.Web Services Logic layer (SOA)--------7000
+
+			  (SSR-------express ejs, next .js, etc) ---------8000
+			 or CSR)-----react js , angular, vue.js, HTML, JQuery, Ajax
+			6.Web Application Front End
+			   layout
+			   pages and controls
+			   UI components
+			   Navigation
+			   Accessing REST API 
+			   Data Binding
+			   Event Binding
+
+
+
+SOC:Separation of Concern
+Loosely Coupled , highly cohesive Architecture
+
+
+
+
+
+
+mail2suresh509@gmail.com
+parag.pancholippt@gmail.com
+
+
+Before Node version 7.6, the callbacks were the only official way provided by Node to run one function after another. As Node architecture is single-threaded and asynchronous, the community devised the callback functions, which would fire (or run) after the first function (to which the callbacks were assigned) run is completed.
+
+app.get('/', function(){
+ function1(arg1, function(){
+   ...
+})
+});
+
+
+The problem with this kind of code is that this kind of situations can cause a lot of trouble and the code can get messy when there are several functions. This situation is called what is commonly known as a callback hell.
+So, to find a way out, the idea of Promises and function chaining was introduced.
+
+
+An async function is a function declared with the async keyword, and the await keyword is permitted within it.
+ The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+
+
+A Promise which will be resolved with the value returned by the async function, or rejected with an exception thrown from, or uncaught within, the async function.
+
+
+Async functions can contain zero or more await expressions. Await expressions make promise-returning functions behave as though they're synchronous by suspending execution until the returned promise is fulfilled or rejected. The resolved value of the promise is treated as the return value of the await expression. Use of async and await enables the use of ordinary try / catch blocks around asynchronous code.
+
+
+The await keyword is only valid inside async functions within regular JavaScript code. If you use it outside of an async function's body, you will get a SyntaxError.
+
+The purpose of async/await is to simplify the syntax necessary to consume promise-based APIs. 
+
+
+Async functions always return a promise. If the return value of an async function is not explicitly a promise, it will be implicitly wrapped in a promise.
+
+
+For example, consider the following code:
+async function foo() {
+  return 1;
+}
+
+It is similar to:
+
+function foo() {
+  return Promise.resolve(1);
+}
+
+
+Even though the return value of an async function behaves as if it's wrapped in a Promise.resolve, they are not equivalent.
+
+An async function will return a different reference, whereas Promise.resolve returns the same reference if the given value is a promise.

@@ -1,0 +1,328 @@
+Developer:
+	  Backend Developer (Database , Database connectivity)
+			    (external application Services)
+	
+	  Front Application Developer ( User Interface)
+
+
+
+FullStack Developer:
+		end to end application Development
+
+	Java Full stack
+	Python Full Stack
+	.net Full Stack
+	Javascript Fullstack Development
+			MEAN fullstack
+			MERN fullstack
+			MEVN fullstack
+
+
+MERN fullstack:
+		FullStack  Web Application:
+		Architecture
+		Environment
+		Framework
+		Model
+		Objects
+			Behaviour
+			State
+			Indentifier
+
+
+		
+
+FullStack Application Development:
+		Front end Application
+		Back end Application 
+	
+		Library
+		Framework
+		Architecture
+		Model
+
+
+React JS----------------------a library for Front End Applcation Development
+
+Angular------------------------complete framework for Front End Applcation Development
+Nextjs-----------------Server side Web Application Development Library
+Node js-------------Runtime Enviornment
+Java----------------Programming language
+Java Runtime----------
+C#, Vb.NET, Managed C++----------------Programming language
+.net-----------------Framework
+Python---------------Programming language
+
+Flutter:--------Frameowork
+Dart-----------Programming language
+Go-------------Programming
+ 
+
+MERN FullStack:
+
+	Web Application:
+
+
+	Web Technology : Express JS
+	Runtime Enviornment: Node JS
+	Execution Engine: V8 Javascript Engine
+	Libraries:Modules
+
+Training Roadmap
+
+Bootcamp: ( 8 Weeks)
+FullStack Development:
+	Front End Application + Back End Application
+
+2 Weeks: Node JS
+2 Weeks: React JS or Angular 
+
+
+
+
+2 Weeks: Node JS
+
+Week 1:
+	1.Browserless Application
+	2.Javascript Programming
+	3.Node JS Architecture
+	4.Node JS Programming
+	5.Web Programming using Node JS
+	6.Express JS Programming
+	
+	
+Week 2:
+	MVC Architecture implmentation using Express JS
+	Database Programing using MySQL
+	Building backend services with database connectivity
+	Writing Web Services ( REST API)
+	Backend Module with database, serivices and basic Web Application Integration
+
+Mini Project :4 to 5 days
+
+
+
+Wekk 3:Front End Application Development
+
+
+
+
+
+
+______________________________________________________________________________________________________
+
+1.Browserless Application   ( server application)
+
+is Hardware  or Software ?
+
+Softwares:
+	1. System Software
+			Operating Systems  (Executable coe)
+					Windows, Linux, Mac OS 
+					(.dll files, .exe files)-----Binary Files
+			Device Drivers:
+				Kernel Device Drivers ( Executable Code)
+				User Device Drivers
+ 					(.drv, .sys file, .dll files)
+		
+	2. Application Software:
+			
+	Stand alone Application: (Desktop Application)
+						Single User Application
+						(.exe file, dll files)
+
+						Notepad, Calculator, paintbrush 
+					
+				
+	Distributed Applications (Oracle, SQL Server )
+			(Fullstack Application)----Distributed Application
+			(Client Module)--------------(Server Module)
+
+			(User Interface)	    		 (core logic of Application)
+
+			(External Data Access Logic)		  (Request processing logic,
+								   Core service Logic,
+								   Response Generation Logic)
+
+			Client Application---Network--------      --Server Application
+
+			Client Process-------Connectivity------	 Server Process
+				
+			Chrome Process----------internet--------   Web Server process
+
+			Chrome Application------internet--------- ( Web Site)
+								   (Web Server)
+
+									one Centralized WEb Server
+			More than chrome.exe------------internet--------Web Server.exe
+								        Database Server.exe
+
+
+
+			deployed , installed in the form of  executable files
+				(.exe file , .dll files)
+
+			Database Software:(.exe)
+					mysql, oracle, mongofb
+			
+			Office automation Software: (.exe)
+					Wrod, Excel, PowerPOint, Onenote
+
+			Thin Client Application (Rich Client Applications):
+					(.exe file)
+					(Web Borwsers)
+					
+					Chrome
+					Microsoft Edge
+					FireFox 
+
+
+	Application logic has been kept inf binary files
+
+	exe files (Self Execuable programs in binary file)-----Entry Point Function
+					  Code Segments for functions  + Main
+
+				dll files ( Dynamic Link Libraries)-------------------no Entry Point Function
+						Code Segments for reusable function
+
+
+
+
+
+	Process:
+		Passive Kernel Object
+		consist of Virtual Address Spaces
+		virtual address spaces consist of 
+				mapping address  for Heap memory
+				mapping Address for dll's
+
+
+		dlls, exe file, data files all are phyisically stored in secondary storage (HDD)
+
+
+	Thread:
+		Active Kernel Object
+		a path of execution/
+		Stack 
+		
+
+
+
+
+
+
+
+
+
+			.exe --------------binary image of Application ( file)
+			process------------instance of running application
+					   Program under exeuction 
+
+
+
+
+stand alone Application:
+		(.exe and dlls)
+		User Interface + core Logic + back end data Access Logic
+
+
+Distributed Application:
+
+
+Server Application: (.exe)
+		 Ready made server ( which are downloaded and installed and activated on computer)
+		  (Apache wamp Server)
+		  (Microsoft IIS Server)
+		  (Tomcat Server)
+		  (XAMP Server)
+		  (Nginx server)
+
+		  Server Application is represented by exe file
+		  Server Application is controlled by starting and stopping  service
+		  Server Application is running in Background (without UI)
+		  Server Application is a dedicated application running on a port:80
+		  Server Application is listening for client Requests comming from Client Application
+		  Server Application responds only when client Appliaction sends a requst
+		  Server Application performs exeuction only when request is received from Client Application
+
+
+
+
+
+Client Application:  (Browser	application) (.exe)
+		 Client Application always send requests to remote server Application
+		 Client Application anticipate response from remote server Application
+		 Client Application shows Data, result received from remote server Application on arraival of response.
+
+
+			    Chrome
+		    FireFox
+		    Microsoft Edge
+
+
+
+
+
+Compouting Device					   	Computing Device
+Client is run						    	Hosted Server 
+(.exe)
+
+Presentation, User Input /Output			Server Core Appliation  Logic
+
+Client Side UI application Development			Server Side Application Developement
+User Interface------------------           		-----------------Core Logic
+							    	Request Processing Logic
+							    	Invoking Data Logic to fetch or to modify data into databas
+							    	Response Generatin Logic
+Client Application-------------connectivity-----------------	server Application
+				(Link)
+				Physical Link ( cable, wifi,etc.)
+				Logical Link ( Protocol)
+						TCP
+						HTTP 
+
+
+
+FullStack Developer:
+
+Distributed Application:
+
+HTML page + Javascript code						 Core Logic
+
+Chrome.exe------------------------            HTTP protocol              ------------- wamp server.exe
+
+
+Node JS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

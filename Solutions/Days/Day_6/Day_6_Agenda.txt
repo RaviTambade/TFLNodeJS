@@ -1,0 +1,93 @@
+
+
+ SDLC: phases
+		Requirement Gathering
+		Planning and Analysis
+		Development (Build)
+		Testing
+		Deployment
+		Support
+ SDLC Model:
+		1.Water Fall
+		2.Agile Model (CD/CI)
+		   Continous Delivery/ Continous Intregation
+
+ IT Enviornments
+		 Developer Enviornment
+		 Testing Enviornment
+		 Production
+ Operations:
+		Operations managment
+		Taking  care of  infrastructure,
+		Taking  care of platform,
+		Taking care of Application
+ DevOps:
+		it is a bridge between Developer envi and Production env.
+
+ Complete Software Development process
+ Different roles in Information Technology
+ Thought Process of Fullstack Developer
+
+
+Fullstack Application in Production Enviornment:
+NetBanking  IT Solution:
+
+WebFarm : Logical Collection of Servers
+		
+		each server may have a different Role
+		1.Authentication Server
+		2.Mail server(Exchange Server)
+		3.Storage Server
+		4.Web Servers
+		5.Application Servers
+		6.Database Servers
+		7.LOB (Line of Bussiness Servers)
+		etc.
+
+Net Banking Solution has been deployed to multiple servers
+There are going to be different roles assigned to those servers
+Role:
+	WFE (Web Front End Server)-----Web Server ( would be load Balanced)
+	App (Application Servers)-------App Server (Fail over servers runing is background to respond in case ]
+						    of failure of on  node server)
+	Data Stor (DB Role)--------------Datbase SErvers ( DB Clusters)
+
+Handson :
+	1.Create express Node js application
+		a.create folder.
+		b.create package.json.
+		c.install express module.
+		c.add public folder.
+		d.add html files :aboutus.html, services.html, login.html, register.html, list.html
+		e.add images, scripts, styles folder
+		f.add sever.js fs.
+		g.import express module.
+		h.set up middleware for bodyparser and static resources.
+		i.Add HTTP  get request handler for  default url to send index.html file.
+		j.Add POST request handler for login  to check user credentials using credentials.json file
+
+	3.Keep listening for port number 7000
+	4.Test http://localhost:7000/--------------------redirect index.html
+	5.aboutus.html, services.html, login.html, register.html, list.html will static resources hosted on express web server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
