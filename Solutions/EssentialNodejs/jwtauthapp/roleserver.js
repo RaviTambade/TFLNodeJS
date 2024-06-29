@@ -5,8 +5,9 @@ restrict access based on specific user attributes or roles
 */
 
 const express = require('express');
-const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
+const jwt = require('jsonwebtoken');
+
 
 const app = express();
 const PORT = 3000;
