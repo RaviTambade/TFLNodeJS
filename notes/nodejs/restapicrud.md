@@ -35,65 +35,67 @@ CRUD stands for Create, Read, Update, and Delete, and these operations are funda
    Create a file named `server.js`:
 
    ```javascript
-   // server.js
-   const express = require('express');
-   const bodyParser = require('body-parser');
-   const app = express();
-   const port = 3000;
+  
+  const express = require('express');
+        const bodyParser = require('body-parser');
 
-   app.use(bodyParser.json());
+        const app = express();
+        //app.use(express.json());
+        app.use(bodyParser.json());
 
-   // In-memory database
-   let items = [];
-   let idCounter = 1;
+        var products=[];
 
-   // Create
-   app.post('/items', (req, res) => {
-     const item = req.body;
-     item.id = idCounter++;
-     items.push(item);
-     res.status(201).json(item);
-   });
+        //simple get message
+        app.get("/", (req , res)=>{
+            res.send("Welcome to rest api server");
+        });
 
-   // Read
-   app.get('/items', (req, res) => {
-     res.json(items);
-   });
+        //Read
+        //GetAll
+        app.get("/api/products",(req,res)=>{
+            res.send(products);
+        });
 
-   app.get('/items/:id', (req, res) => {
-     const item = items.find(i => i.id === parseInt(req.params.id));
-     if (item) {
-       res.json(item);
-     } else {
-       res.status(404).json({ message: 'Item not found' });
-     }
-   });
+        //GetById
+        app.get("/api/products/:id",(req, res)=>{
+            const product=products.find(element=>element.id == parseInt(req.params.id));
+            if(product){
+                res.send(product);
+            }
+        else{
+            res.status(404).json({ message: "Product is nto found"});
+        }
+        });
 
-   // Update
-   app.put('/items/:id', (req, res) => {
-     const index = items.findIndex(i => i.id === parseInt(req.params.id));
-     if (index !== -1) {
-       items[index] = { ...items[index], ...req.body };
-       res.json(items[index]);
-     } else {
-       res.status(404).json({ message: 'Item not found' });
-     }
-   });
 
-   // Delete
-   app.delete('/items/:id', (req, res) => {
-     const index = items.findIndex(i => i.id === parseInt(req.params.id));
-     if (index !== -1) {
-       items.splice(index, 1);
-       res.status(204).end();
-     } else {
-       res.status(404).json({ message: 'Item not found' });
-     }
-   });
+        //insert
+        app.post("/api/products", (req, res)=>{
+            console.log("post is invoked....");
+            var product=req.body;
+            console.log(product);
+            product.id=products.length+1;
+            products.push(product);
+            res.status(201).json(product);
+        });
 
-   app.listen(port, () => {
-     console.log(`Server running at http://localhost:${port}`);
-   });
+        //delete
+        app.delete("/api/products/:id",(req, res)=>{
+            const index=products.findIndex(element=>element.id === parseInt(req.params.id));
+            if(index !== -1){
+                products.splice( index, 1);
+                res.status(204).end();
+            }
+            else{
+                res.status(404).json({ message: "Product is nto found"});
+            }
+        })
+
+        app.put("/api/produts/:id",(req, res)=>{
+
+        });
+
+        app.listen(9090,()=>{console.log("server is listening on port 9090");});
+
    ```
 
 4. **Run Your Server**
