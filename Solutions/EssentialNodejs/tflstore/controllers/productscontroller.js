@@ -1,8 +1,14 @@
 // controllers/products.controller.js
 
+var svc=require("../services/service");
+
 class ProductsController {
     getAllProducts(req, res) {
       // Retrieve and return all products
+      var fileName="products.json";
+      var data;
+      var products=svc.getAllProducts();
+
       res.json({ message: "Get all products" });
     }
   
