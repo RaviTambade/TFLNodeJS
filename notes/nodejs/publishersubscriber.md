@@ -1,10 +1,4 @@
-This explanation of **Best Practice #3: Publisher-Subscriber Models** is an excellent follow-up to the Layered Architecture concept. It emphasizes **decoupling** even further, especially when handling complex, multi-step operations like user signup.
-
-Here’s a concise **summary and enhancement** of the ideas with added clarity:
-
----
-
-### ✅ **Publisher/Subscriber Pattern Overview**
+## ✅ **Publisher/Subscriber Pattern**
 
 #### 🔁 Traditional Flow (Tightly Coupled)
 

@@ -1,4 +1,4 @@
-# Node.js architecture
+# Node.js Architecture
 
 Node.js architecture is designed to handle asynchronous operations efficiently and scale well with modern applications. Here’s a detailed overview of its architecture:
 
