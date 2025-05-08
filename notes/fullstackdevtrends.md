@@ -1,4 +1,4 @@
-## FullStack Development trends
+## FullStack Development Trends
 
 As technology evolves, so do the trends in Fullstack development. Here are some of the notable trends in Fullstack development as of recent times:
 
