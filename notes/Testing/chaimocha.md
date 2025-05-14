@@ -1,4 +1,4 @@
-Great! Since you're using **Node.js** and want to write **unit tests**, you'll often come across testing libraries like **Mocha** and **Chai**.
+# Node.js unit tests using  Mocha  and Chai*
 
 ---
 
@@ -99,6 +99,4 @@ Then run:
 npm test
 ```
 
----
-
-Would you like a hands-on setup step-by-step with Mocha + Chai using VS Code?
+- 

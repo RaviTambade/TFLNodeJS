@@ -1,5 +1,6 @@
-Writing a **Node.js app for Selenium automation testing** involves using the **`selenium-webdriver`** package along with Node.js to automate browser actions such as opening a page, clicking buttons, filling forms, etc.
+# Node.js app for Selenium automation testing
 
+Node.js app for Selenium automation testing** involves using the **`selenium-webdriver`** package along with Node.js to automate browser actions such as opening a page, clicking buttons, filling forms, etc.
 ---
 
 ## ✅ Step-by-Step Guide to Selenium Automation in Node.js

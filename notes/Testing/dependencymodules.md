@@ -1,4 +1,4 @@
-Great! Let's clearly list and explain all the **dependency modules** used in your Node.js CRUD app for:
+# Dependency modules used in your Node.js CRUD app for:
 
 * ✅ **API development**
 * 🧪 **Unit testing**
@@ -99,5 +99,4 @@ npm install --save-dev mocha chai supertest nyc
 ```
 
 ---
-
-Would you like me to generate a sample `package.json` file or show the coverage report format too?
+ 

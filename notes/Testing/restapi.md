@@ -1,4 +1,4 @@
-Sure! Below is a complete **Node.js CRUD REST API** example with **unit tests** using:
+# Node.js CRUD REST API** example with unit tests using:
 
 * **Express** – to create the API
 * **Mocha** – test runner
@@ -218,6 +218,6 @@ CRUD API /api/users
   ✓ should delete a user
 ```
 
----
+
 
  

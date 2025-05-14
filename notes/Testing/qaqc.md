@@ -968,6 +968,3 @@ Great! Let's walk through a **step-by-step guide** on setting up **CI/CD pipelin
 
    * Set up **Docker containers** in Jenkins for **isolated testing environments**.
    * Learn **Kubernetes** to scale your test execution across multiple nodes for faster testing.
-
-Would you like a **project starter template** or **detailed examples** for any specific automation setup? Let me know how you want to proceed!
-

@@ -104,6 +104,3 @@ Test Cases based on the previously defined User Storiesfor the eCommerce Applica
 | TC-NFR-04    | Accessibility test        | Site running        | 1. Use screen reader     | Proper reading of elements           | Medium   |
 | TC-NFR-05    | Uptime monitoring         | Site hosted         | 1. Monitor 24/7          | >=99.9% uptime                       | High     |
 
- 
-
- 
