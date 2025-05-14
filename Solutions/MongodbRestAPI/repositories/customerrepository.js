@@ -9,7 +9,6 @@ exports.getAllCustomers = async (req, res) => {
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
-    
 };
 
 exports.getCustomerById = async (req, res) => {
@@ -29,26 +28,21 @@ exports.createCustomer = async (req, res) => {
     if (!name || !email || !phone) {
         return res.status(400).json({ message: 'Name, email, and phone are required' });
     }
-
     try {
         const newCustomer = new Customer({ name, email, phone });
         await newCustomer.save();
         res.status(201).json(newCustomer);
     } catch (error) {
         res.status(500).json({ message: error.message });
-    }
-        
+    }   
 };
 
 
 exports.updateCustomer = async (req, res) => {
-
     const { name, email, phone } = req.body;
-
     if (!name || !email || !phone) {
         return res.status(400).json({ message: 'Name, email, and phone are required' });
     }
-
     try {
         const updatedCustomer = await Customer.findByIdAndUpdate(
             req.params.id,
@@ -60,7 +54,6 @@ exports.updateCustomer = async (req, res) => {
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
-
 };
     
 exports.deleteCustomer = async (req, res) => {
