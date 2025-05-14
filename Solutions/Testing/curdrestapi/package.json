@@ -1,0 +1,22 @@
+{
+  "name": "curdrestapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai-http": "^5.1.2",
+    "curdrestapi": "file:",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "supertest": "^7.1.1"
+  }
+}
