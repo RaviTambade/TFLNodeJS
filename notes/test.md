@@ -1,6 +1,4 @@
-Great! A 6-hour session on **Software Testing** can be very productive and insightful if structured well. Here's a suggested **session plan** that balances **theory, practical demos, and engagement activities**. This plan assumes you're addressing learners with basic to intermediate programming knowledge.
-
----
+# Software Testing 
 
 ### ✅ **6-Hour Software Testing Session Plan**
 
