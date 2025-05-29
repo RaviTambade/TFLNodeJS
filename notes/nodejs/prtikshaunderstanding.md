@@ -1,6 +1,6 @@
 # **A Story of How Online Applications Work**
 
-<img src="/images/howrequest.jpg"/>
+<img src="../../images/howrequest.jpg"/>
 
 ### 🟩 Part 1: The Beginning – The Browser on Pratiksha’s Laptop (Client Machine)
 
