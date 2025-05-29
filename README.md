@@ -2,7 +2,6 @@
 
 > *"Let me tell you a story... not about just code, but about becoming a creator in the digital world."*
 
-
 ## The Seed of Fullstack Development
 
 Once upon a time, developers lived in two separate worlds: the **Frontend** — where beauty, design, and user interaction lived — and the **Backend** — where logic, data, and performance ruled.
@@ -26,7 +25,6 @@ This project is your **map** to that journey. A guide for those who wish to walk
 
  
 ## Who is a Fullstack Developer?
-
 > *"The fullstack developer is like an architect who also knows how to paint, lay bricks, and install lighting."*
 
 A Fullstack Developer is a **creator of complete experiences** — someone who builds not just what users see, but also how it all works under the hood.
@@ -65,14 +63,14 @@ By following this project, you will explore and implement:
 - ✅ **CRUD operations using MongoDB or any other DB**
 - ✅ **Dev tools integration and deployment pipelines**
 
-## 🎯 Who Is This For?
+## Who Is This For?
 
 - 💡 **Aspiring Fullstack Developers**
 - 🎓 **Students in Node.js, JavaScript, or Web Dev Courses**
 - 🧪 **Backend Devs who want to learn frontend**
 - 🚀 **Frontend Devs who want to become complete developers**
 
-## 🌟 Final Words from the Mentor
+## Final Words from the Mentor
 
 > *"Being a fullstack developer isn't just about knowing more — it's about thinking holistically, building fearlessly, and learning constantly."*
 
