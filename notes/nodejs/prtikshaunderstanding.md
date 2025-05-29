@@ -1,7 +1,7 @@
- 
-## **A Story of How Online Applications Work**
+# **A Story of How Online Applications Work**
 
-<img src="//Images/howrequest.jpg">
+<img src="//Images/howrequest.jpg" />
+
 ### 🟩 Part 1: The Beginning – The Browser on Pratiksha’s Laptop (Client Machine)
 
 *"Imagine Pratiksha, a regular user like you and me, sitting at his desk. He opens his browser and types in: `http://www.facebook.com`. Simple, right? But behind the scenes, something fascinating begins to happen..."*
