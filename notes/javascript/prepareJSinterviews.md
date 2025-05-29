@@ -24,7 +24,7 @@
 
 *"Trust me, once you get this, you’ll design systems, not just scripts."*
 
-### ⏳ **3. Async JavaScript: Dancing with Time**
+### **3. Async JavaScript: Dancing with Time**
 
 *"Ever cooked three dishes at once? That’s async programming."*
 
@@ -39,7 +39,7 @@
 * Learn to **select**, **change**, and **react** to elements.
 * Understand **event bubbling**, and you’ll be handling user actions like a maestro.
 
-### 🚀 **5. Performance and the Event Loop: JavaScript’s Engine Room**
+### **5. Performance and the Event Loop: JavaScript’s Engine Room**
 
 *"Why does some code feel faster? Let’s peek inside the engine."*
 
@@ -54,7 +54,7 @@
 * Master `try/catch/finally`.
 * Know how to **create custom errors**, and your code will tell you what’s wrong — politely.
 
-###**7. Data Structures & Algorithms: Your Thinking Tools**
+### **7. Data Structures & Algorithms: Your Thinking Tools**
 
 *"This is where interviews really test your mind."*
 
@@ -63,7 +63,7 @@
 * Brush up on **basic algorithms** like sorting or finding duplicates.
 * Know your **Big O** — because time and space matter.
 
-### 🆕 **8. Modern JavaScript: ES6+ and Beyond**
+### **8. Modern JavaScript: ES6+ and Beyond**
 
 *"If core JS is the body, ES6+ is the style and muscle."*
 
