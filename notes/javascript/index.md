@@ -1,4 +1,4 @@
-#  Welcome to JavaScript – Your First Step into the World of Software Magic!
+# Step into the World of Software Magic!
  
 Welcome to Javascript world, future developer!
 
