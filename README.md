@@ -78,7 +78,7 @@ This repo is more than just code — it's a step into a career path where you ca
 
 So, go ahead. Clone the repo. Open your code editor. Begin your story. And remember, every fullstack developer once started with a single line of JavaScript.
 
-Happy coding! 
+Hello World! 
 — *Tap your potential*
 
 
