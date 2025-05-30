@@ -107,21 +107,21 @@ Let us get started.
 
 ### 🧰 **Stage 3: Backend and Fullstack Technologies**
 
-15. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/nodejs/">JavaScript runtime for backend – Express, routing, middleware</a>
-16. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/python.md">Intro to Python as a backend language (Flask/Django brief)</a>
-17. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/java.md">Java backend overview (SpringBoot – optional path)</a>
-18. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/go.md">Introduction to Golang – high-performance backend language</a>
+15. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/nodejs/">Node JS</a>
+16. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/python.md">Python (Flask/Django brief)</a>
+17. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/java.md">JavaSpringBoot – optional path)</a>
+18. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/go.md"> Golang – high-performance backend language</a>
 19. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dotnet.md">.NET for building scalable backend APIs</a>
-20. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/Testing/">Unit testing, integration, and tools across fullstack</a>
+20. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/Testing/">Software Testing</a>
 
 
 ### 🧠 **Stage 4: Advanced Fullstack and Industry Trends**
 
-21. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mern.md">MongoDB, Express, React, Node.js – modern JS stack</a>
-22. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mean.md">MongoDB, Express, Angular, Node.js – fullstack alternative</a>
+21. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mern.md">MERN</a>
+22. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mean.md">MEAN – fullstack alternative</a>
 23. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mentoringmern.md">Your personal mentoring experience or guide</a>
-24. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/microfrontend.md">Breaking frontend into scalable micro apps</a>
-25. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdevtrends.md">Latest trends, DevOps, CI/CD, serverless</a>
+24. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/microfrontend.md">Micro Frontend Appliations</a>
+25. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdevtrends.md"> DevOps, CI/CD, serverless</a>
 
 
 > ✅ **Tip for Students:**
