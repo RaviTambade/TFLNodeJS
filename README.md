@@ -1,4 +1,4 @@
-# Node.js Fullstack Developer's Journey
+# Fullstack Developer's Journey
 
 > *"Let me tell you a story... not about just code, but about becoming a creator in the digital world."*
 
