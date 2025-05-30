@@ -81,6 +81,63 @@ So, go ahead. Clone the repo. Open your code editor. Begin your story. And remem
 Happy coding! 
 — *Tap your potential*
 
+
+<hr/>
+
+ ### 🧱 **Stage 1: Web Fundamentals (Frontend Foundations)**
+
+1. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdeveloper.md">fullstackdeveloper.md</a> – *Who is a fullstack developer? Roles, responsibilities, tech stack.*
+2. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/html.md">html.md</a> – *Structure of webpages – tags, forms, tables.*
+3. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/css.md">css.md</a> – *Styling – selectors, layout, responsiveness.*
+4. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/bootstrap.md">bootstrap.md</a> – *Quick UI design with responsive components.*
+5. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/uiux.md">uiux.md</a> – *Introduction to user interface & user experience design.*
+6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/">javascript/</a> – *Core JS concepts: variables, functions, control, DOM.*
+7. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dom.md">dom.md</a> – *DOM traversal and manipulation using JavaScript.*
+8. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/jquery.md">jquery.md</a> – *Simplifying DOM, events, AJAX.*
+9. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/spa.md">spa.md</a> – *Single Page Applications – concept and advantages.*
+10. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/pwa.md">pwa.md</a> – *Progressive Web Apps – offline-first, installable websites.*
+
+ 
+
+### 🌐 **Stage 2: Browser, Server, and Internet Awareness**
+
+11. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/browser.md">browser.md</a> – *How browsers work, DevTools, rendering engines.*
+12. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webappurlinbrowser.md">webappurlinbrowser.md</a> – *How a URL translates to a web app view.*
+13. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webserver.md">webserver.md</a> – *What is a server? Static vs dynamic hosting.*
+14. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/journeyclientserver.md">journeyclientserver.md</a> – *Client-server communication journey (HTTP, APIs).*
+
+ 
+
+### 🧰 **Stage 3: Backend and Fullstack Technologies**
+
+15. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/nodejs/">nodejs/</a> – *JavaScript runtime for backend – Express, routing, middleware.*
+16. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/python.md">python.md</a> – *Intro to Python as a backend language (Flask/Django brief).*
+17. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/java.md">java.md</a> – *Java backend overview (SpringBoot – optional path).*
+18. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/go.md">go.md</a> – *Introduction to Golang – high-performance backend language.*
+19. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dotnet.md">dotnet.md</a> – *.NET for building scalable backend APIs.*
+20. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/Testing/">Testing/</a> – *Unit testing, integration, and tools across fullstack.*
+
+ 
+
+### 🧠 **Stage 4: Advanced Fullstack and Industry Trends**
+
+21. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mern.md">mern.md</a> – *MongoDB, Express, React, Node.js – modern JS stack.*
+22. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mean.md">mean.md</a> – *MongoDB, Express, Angular, Node.js – fullstack alternative.*
+23. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mentoringmern.md">mentoringmern.md</a> – *Your personal mentoring experience or guide.*
+24. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/microfrontend.md">microfrontend.md</a> – *Breaking frontend into scalable micro apps.*
+25. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdevtrends.md">fullstackdevtrends.md</a> – *Latest trends, DevOps, CI/CD, serverless.*
+
+ 
+
+> ✅ **Tip for Students:**
+> Start building small projects at the end of each stage – like a portfolio site (Stage 1), static site deployment (Stage 2), REST API + UI (Stage 3), and full MERN app (Stage 4).
+
+ 
+
+ 
+
+<hr/>
+
 Javascript Programming Essentials:
 <hr/>
 
