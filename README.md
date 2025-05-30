@@ -133,23 +133,3 @@ Let us get started.
 
 
 ### 🧱 **Stage 1: Web Fundamentals (Frontend Foundations)**
-
-6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/">Core JS concepts: variables, functions, control, DOM</a>
-
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/BasicsJS.md">BasicsJS</a> <!-- Start here for basic introduction to JavaScript. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/syntax.md">syntax</a> <!-- Covers JavaScript syntax rules and structure. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/variableconst.md">variableconst</a> <!-- Let, const, var – important for understanding scoping and declaration. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/datatypes.md">datatypes</a> <!-- Covers primitive and reference types. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/arrays.md">arrays</a> <!-- Essential collection type – needed for most real-world JS coding. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/ArrayOperations.md">ArrayOperations</a> <!-- Covers advanced array methods like map, filter, reduce. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/controlstatement.md">controlstatement</a> <!-- If-else, switch, loops – basic flow control. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/functions.md">functions</a> <!-- Function declarations, expressions, arrow functions. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/objects.md">objects</a> <!-- Learn how data is structured using key-value pairs. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/oops.md">oops</a> <!-- Encapsulation, inheritance, classes – OOP with JS. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/CallbackPromiseAsync.md">CallbackPromiseAsync</a> <!-- Important for understanding async flow – Callbacks, Promises. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/asyncawait.md">asyncawait</a> <!-- Modern async handling using async/await. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/ExceptionHandling.md">ExceptionHandling</a> <!-- Try-catch-finally, custom errors – for robust code. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/dom.md">dom</a> <!-- Manipulating the Document Object Model – must for web development. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/clientstatemgmt.md">clientstatemgmt</a> <!-- Managing data in frontend apps – sessionStorage, localStorage, cookies. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/prepareJSinterviews.md">prepareJSinterviews</a> <!-- Revise, practice, and crack JavaScript interviews. -->
-   * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/js.md">js</a> <!-- General JS notes or summary file (keep it last for reference). -->
