@@ -86,23 +86,23 @@ Let us get started.
  
 ### 🧱 **Stage 1: Web Fundamentals (Frontend Foundations)**
 
-1. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdeveloper.md">Who is a fullstack developer? Roles, responsibilities, tech stack</a>
-2. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/html.md">Structure of webpages – tags, forms, tables</a>
-3. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/css.md">Styling – selectors, layout, responsiveness</a>
-4. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/bootstrap.md">Quick UI design with responsive components</a>
-5. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/uiux.md">Introduction to user interface & user experience design</a>
-6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/">Core JS concepts: variables, functions, control, DOM</a>
-7. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dom.md">DOM traversal and manipulation using JavaScript</a>
+1. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdeveloper.md">Who is a fullstack developer</a>
+2. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/html.md">Structure of WebPage</a>
+3. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/css.md">Styling Web Page</a>
+4. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/bootstrap.md">Quick UI Responsive Design</a>
+5. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/uiux.md">User Interface & User Experience</a>
+6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/">Core Javascript Programming</a>
+7. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dom.md">DOM Traversal and Manipulation</a>
 8. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/jquery.md">Simplifying DOM, events, AJAX</a>
-9. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/spa.md">Single Page Applications – concept and advantages</a>
-10. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/pwa.md">Progressive Web Apps – offline-first, installable websites</a>
+9. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/spa.md">Single Page Applications(SPA)</a>
+10. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/pwa.md">Progressive Web Apps</a>
 
 ### 🌐 **Stage 2: Browser, Server, and Internet Awareness**
 
-11. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/browser.md">How browsers work, DevTools, rendering engines</a>
-12. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webappurlinbrowser.md">How a URL translates to a web app view</a>
-13. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webserver.md">What is a server? Static vs dynamic hosting</a>
-14. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/journeyclientserver.md">Client-server communication journey (HTTP, APIs)</a>
+11. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/browser.md">How browsers work ?</a>
+12. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webappurlinbrowser.md">How a URL translates to a web app view ?</a>
+13. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/webserver.md">What is a server ?</a>
+14. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/journeyclientserver.md">Client-server communication journey</a>
 
 
 ### 🧰 **Stage 3: Backend and Fullstack Technologies**
@@ -117,11 +117,11 @@ Let us get started.
 
 ### 🧠 **Stage 4: Advanced Fullstack and Industry Trends**
 
-21. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mern.md">MERN</a>
-22. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mean.md">MEAN – fullstack alternative</a>
-23. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mentoringmern.md">Your personal mentoring experience or guide</a>
+21. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mern.md">MERN JS Stack</a>
+22. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mean.md">MEAN JS Stack</a>
+23. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/mentoringmern.md">My Mentoring Expereince</a>
 24. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/microfrontend.md">Micro Frontend Appliations</a>
-25. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdevtrends.md"> DevOps, CI/CD, serverless</a>
+25. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/fullstackdevtrends.md"> DevOps, CI/CD, Serverless</a>
 
 
 > ✅ **Tip for Students:**
