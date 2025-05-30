@@ -127,9 +127,7 @@ Let us get started.
 > ✅ **Tip for Students:**
 > Start building small projects at the end of each stage – like a portfolio site (Stage 1), static site deployment (Stage 2), REST API + UI (Stage 3), and full MERN app (Stage 4).
 
+
+What are you waiting for.  
+<a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md">Let us Javascript ...</a>
  
-
-## Javascript Programming Essentials:
-
-
-### 🧱 **Stage 1: Web Fundamentals (Frontend Foundations)**
