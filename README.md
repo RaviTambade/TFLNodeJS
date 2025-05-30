@@ -148,9 +148,7 @@ Below is a **recommended learning sequence**, structured in **four stages**:
 Javascript Programming Essentials:
 <hr/>
 
-Got it! Here's the **expanded and reorganized JavaScript section** of your Fullstack Web Development roadmap with the same style of clickable links you requested, integrated neatly under Stage 1 where JavaScript is introduced:
-
----
+ 
 
 ### 🧱 **Stage 1: Web Fundamentals (Frontend Foundations)**
 
