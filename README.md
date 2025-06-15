@@ -96,34 +96,4 @@ A **craft**.
 
 So go ahead…
 
-```bash
-git clone https://github.com/your-username/fullstack-journey.git
-cd fullstack-journey
-npm install
-npm start
-````
-
-👋 Say **Hello World** — and begin your story.
-
-**🔖 License**
-MIT License
-
-**👨‍🏫 Mentor:** Ravi Tambade
-**📫 Contact:** [ravi.tambade@transflower.in](mailto:ravi.tambade@transflower.in) | [LinkedIn](https://linkedin.com/in/ravitambade)
-
-
-
-## Final Words from the Mentor
-
-> *"Being a fullstack developer isn't just about knowing more — it's about thinking holistically, building fearlessly, and learning constantly."*
-
-This repo is more than just code — it's a step into a career path where you can own your product end to end. Where you can imagine something, build it, and bring it to life for real users.
-
-So, go ahead. Clone the repo. Open your code editor. Begin your story. And remember, every fullstack developer once started with a single line of JavaScript.
-
-Hello World! 
-— *Tap your potential*
-
-So what are you waiting for. Let us march in the world of FullStack Developement
-
 <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md">Welcome to TFL NodeJS world</a>
