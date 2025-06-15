@@ -91,7 +91,7 @@ Let us get started.
 3. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/css.md">Styling Web Page</a>
 4. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/bootstrap.md">Quick UI Responsive Design</a>
 5. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/uiux.md">User Interface & User Experience</a>
-6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/">Core Javascript Programming</a>
+6. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md">Core Javascript Programming</a>
 7. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/dom.md">DOM Traversal and Manipulation</a>
 8. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/jquery.md">Simplifying DOM, events, AJAX</a>
 9. <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/spa.md">Single Page Applications(SPA)</a>
