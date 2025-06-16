@@ -30,7 +30,7 @@ Let’s make your ideas come alive — **one line of JavaScript at a time**.
 
 🧑‍🏫 *Welcome to the world of creators.*
 
-   - <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/BasicsJS.md"> Basic Introduction to JavaScrip</a> <!-- Start here for basic introduction to JavaScript. -->
+   - <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/BasicsJS.md"> Basic Introduction to JavaScript</a> <!-- Start here for basic introduction to JavaScript. -->
    - <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/syntax.md">JavaScript Syntax Rules and Structure</a> <!-- Covers JavaScript syntax rules and structure. -->
    - <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/variableconst.md">Let, const, var – Important for understanding scoping and declaration</a> <!-- Let, const, var – important for understanding scoping and declaration. -->
    - <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/datatypes.md">Covers primitive and reference types</a> <!-- Covers primitive and reference types. -->
