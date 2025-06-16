@@ -1,8 +1,6 @@
 
 ## "Learning JavaScript Objects & Classes with Real-Life Stories"
 
-
-
 👋 **"Welcome to Your First Day of JavaScript OOP"**
 
 Dear students,
