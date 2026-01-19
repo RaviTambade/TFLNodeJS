@@ -7,8 +7,6 @@ The **Document Object Model (DOM)** is a **programming interface** provided by w
 * **"Document"** refers to the webpage (usually written in HTML).
 * **"Object Model"** means the document is represented as a **tree of objects** in memory.
 
----
-
 ## 🌳 DOM as a Tree Structure
 
 The DOM represents an HTML document as a **tree-like structure** (called a **node tree**) where:
@@ -47,7 +45,6 @@ Document
              └── "This is a paragraph."
 ```
 
----
 
 ## 🎮 Why is the DOM Important?
 
@@ -59,7 +56,6 @@ The DOM allows **JavaScript** and other languages to:
 * Add or remove **elements dynamically**
 * Create **interactive websites**
 
----
 
 ## 🛠️ Example JavaScript DOM Manipulation
 
@@ -79,7 +75,6 @@ The DOM allows **JavaScript** and other languages to:
 * `document.getElementById("demo")` accesses the `<p>` element.
 * `.innerHTML = "Text Changed!"` modifies its content.
 
----
 
 ## 🧠 Key Features of the DOM
 
@@ -90,7 +85,6 @@ The DOM allows **JavaScript** and other languages to:
 | **Live representation**  | The DOM reflects real-time changes to the web page.                       |
 | **Event-driven**         | Supports events like clicks, form submissions, mouse movements, etc.      |
 
----
 
 ## 🔄 Real-world Analogy
 
@@ -98,8 +92,6 @@ Think of an HTML document as a **blueprint of a house**, and the DOM as the **ac
 
 * **Blueprint (HTML)**: Static and fixed.
 * **Model (DOM)**: You can open doors (click buttons), paint walls (change CSS), add rooms (create elements).
-
----
 
 ## 📌 Summary
 
@@ -110,4 +102,3 @@ Think of an HTML document as a **blueprint of a house**, and the DOM as the **ac
 | **Manipulation**     | You can add/remove/update content, styles, or respond to user actions.                     |
 | **Language-neutral** | DOM can be accessed using various languages (mostly JavaScript in browsers).               |
 
----
