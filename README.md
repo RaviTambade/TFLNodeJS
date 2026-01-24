@@ -1,9 +1,6 @@
 # 🌉 Fullstack Developer’s Journey
 
 ## From Curiosity → Capability → Creation
-
-*(A Transflower Mentor Story)*
-
 > *“Let me tell you a story.
 > Not just about code —
 > but about becoming a creator in the digital world.”*
