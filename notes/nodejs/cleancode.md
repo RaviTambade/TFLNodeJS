@@ -1,12 +1,3 @@
-This is a **strong practical section already** 👍
-What I’ll do now is **elevate it into Transflower Learning Framework thinking**—so students don’t see clean code as *rules*, but as **engineering discipline and respect for future humans**.
-
-I’ll keep your structure, add mentor insights, and tighten the *why*.
-
----
-
-# 🌱 Transflower Learning Framework
-
 ## Clean Code & Easy Readability
 
 *(Best Practice #4 – Think Beyond “It Works”)*
@@ -25,11 +16,10 @@ It is about:
 Messy code doesn’t just slow computers —
 👉 **it slows teams, careers, and systems**.
 
----
 
 ## ✅ Best Practice #4: Clean Code & Easy Readability
 
----
+
 
 ## 🔧 1️⃣ Linting & Formatting
 
@@ -51,8 +41,6 @@ Linting & formatting:
 * Prevent silly bugs
 * Enforce team-wide standards
 
----
-
 ### ✔ Tools to Use
 
 * **ESLint** → *Correctness & best practices*
@@ -61,8 +49,6 @@ Linting & formatting:
 
 > 💡 Transflower Rule:
 > **If formatting is debated, automate it.**
-
----
 
 ### ✅ Recommended Setup
 
@@ -110,7 +96,6 @@ VS Code settings:
 👉 Result:
 **Every save = cleaner code automatically**
 
----
 
 ## 🧑‍🎨 2️⃣ Style Guides
 
@@ -126,15 +111,12 @@ Style guides:
 
 In industry, **predictability > personal preference**.
 
----
 
 ### 🔥 Popular JavaScript Style Guides
 
 * **Airbnb** – Strict, industry-grade
 * **Google** – Clean, documentation-friendly
 * **StandardJS** – Minimalist, opinionated
-
----
 
 ### Using Airbnb with ESLint
 
@@ -154,8 +136,6 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 > Style guides are not about beauty —
 > they are about **reducing thinking overhead**.
 
----
-
 ## 💬 3️⃣ Intelligent Comments
 
 *(Explain intent, not syntax)*
@@ -166,8 +146,6 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 > Comments explain “why”.**
 
 If your comment repeats the code — delete it.
-
----
 
 ### ❌ Bad Comment
 
@@ -188,7 +166,7 @@ Why this is better:
 * Helps future maintainers
 * Explains business/technical intent
 
----
+
 
 ### Transflower Commenting Guidelines
 
@@ -197,7 +175,6 @@ Why this is better:
 * Comment **non-obvious logic**
 * Prefer **clear naming over comments**
 
----
 
 ## 📝 4️⃣ Use JSDoc for Auto-Documentation
 
@@ -211,8 +188,6 @@ JSDoc:
 * Improves IDE IntelliSense
 * Acts as lightweight contract
 * Helps onboarding new developers
-
----
 
 ### Install JSDoc
 
@@ -260,8 +235,6 @@ And most importantly:
 
 > **People want to work with you again.**
 
----
-
 ## 🧠 Transflower Mentor Takeaway
 
 > “Anyone can make code work.
@@ -278,9 +251,6 @@ Perfect 👍
 **Meaningful naming** is where clean code becomes *professional code*.
 Let’s frame this the **Transflower way**—not as rules, but as **thinking habits**.
 
----
-
-# 🌱 Transflower Learning Framework
 
 ## Meaningful Naming Conventions
 
@@ -304,8 +274,6 @@ Bad names:
 * Increase mental load
 * Create fear of change
 
----
-
 ## 1️⃣ Why Naming Matters (First-Principles Thinking)
 
 Computers don’t care about names.
@@ -321,15 +289,11 @@ Your code will be read by:
 > Code is a conversation across time.
 > Names are the language of that conversation.
 
----
-
 ## 2️⃣ The Golden Rule of Naming
 
 > **A name should answer: *What is this, and why does it exist?***
 
 If you need a comment to explain a name → the name is wrong.
-
----
 
 ## 3️⃣ Variables: Say What, Not How
 
@@ -344,8 +308,6 @@ let data;
 
 These tell us **nothing**.
 
----
-
 ### ✅ Meaningful Names
 
 ```js
@@ -356,8 +318,6 @@ let paymentStatus;
 ```
 
 Now the code explains itself.
-
----
 
 ### Transflower Tip 💡
 
@@ -406,7 +366,6 @@ if (isPaymentSuccessful) {
 
 > Reads like a sentence. That’s the goal.
 
----
 
 ## 5️⃣ Functions: Name by Behavior, Not Implementation
 
@@ -442,8 +401,6 @@ Now we know:
 ### Transflower Rule 🧠
 
 **Functions are verbs. Variables are nouns.**
-
----
 
 ## 6️⃣ Avoid Abbreviations (Unless Universally Known)
 
@@ -492,8 +449,6 @@ let completedOrders = [];
 
 Instant understanding.
 
----
-
 ## 8️⃣ Avoid Generic Names Like `data`, `info`, `value`
 
 These are **red flags**.
@@ -516,8 +471,6 @@ function processPayment(paymentRequest) {
 ```
 
 > If everything is called `data`, nothing has meaning.
-
----
 
 ## 9️⃣ Naming Async Functions (Node.js Specific)
 
