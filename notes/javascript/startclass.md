@@ -1,8 +1,3 @@
-Perfect 👍
-Now let’s **rebuild this lesson fully inside an HR Solution domain**, using **Transflower Learning Framework storytelling** — where concepts grow naturally from real workplace reality, not abstract syntax.
-
----
-
 # 🌿 Learning JavaScript Objects & Classes
 
 ## *A Transflower Mentor Story from the HR Solution World*
@@ -13,7 +8,6 @@ Now let’s **rebuild this lesson fully inside an HR Solution domain**, using **
 
 Welcome to your **first day as a developer building an HR Solution**.
 
----
 
 ## 👋 Day 1 at Transflower HR Tech Team
 
@@ -32,7 +26,6 @@ To do this properly, we must **model real people as software objects**.
 
 That’s where **JavaScript Classes** come in.
 
----
 
 ## 🔧 Chapter 1: Simple Tools — Functions (Actions Without Identity)
 
@@ -65,7 +58,6 @@ function exitEmployee(name) {
 > 🎓 **Mentor Insight**
 > Functions are useful — but they don’t represent *people*.
 
----
 
 ## 🧱 Chapter 2: When HR Needs Real Entities — Classes
 
@@ -79,8 +71,6 @@ An **Employee** has:
 * Responsibilities
 
 That’s where a **Class** is born.
-
----
 
 ## 👤 Chapter 3: Employee Class — The Foundation of HR Solution
 
@@ -123,7 +113,6 @@ emp1.doWork();
 🎯 You didn’t just run code —
 you **hired an employee into your HR system**.
 
----
 
 ## 🧠 Chapter 4: Understanding `this` — Ownership Matters
 
@@ -187,7 +176,6 @@ At this stage, students realize:
 Exactly.
 This leads naturally to **inheritance** (next lesson).
 
----
 
 ## 🏢 Chapter 6: HR Assets — Modeling Company Resources
 
@@ -195,7 +183,6 @@ HR systems don’t manage only people.
 
 They manage **assets** too.
 
----
 
 ### 🪑 Asset Class (Laptop, ID Card, Phone)
 
@@ -221,7 +208,6 @@ laptop.assign();
 
 🎯 Now your HR system tracks **resources**, not just humans.
 
----
 
 ## 🧪 Chapter 7: Putting HR System Together
 
@@ -241,7 +227,6 @@ laptop2.assign();
 🎭 You are no longer learning syntax.
 You are **simulating an organization**.
 
----
 
 ## 🌱 Transflower Learning Philosophy (Why This Matters)
 
@@ -254,7 +239,7 @@ Classes help you:
 * Think in systems
 * Design scalable applications
 
----
+
 
 ## 🧙 Mentor’s Closing Wisdom
 
