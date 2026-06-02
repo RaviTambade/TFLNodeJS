@@ -74,8 +74,6 @@ HR/SalesManager.js
 Program.js
 ```
 
----
-
 ## 🧩 Step 3: Implement `Employee` (Base Class)
 
 📄 **HR/Employee.js**
@@ -251,15 +249,13 @@ console.log(emp2.toString());
 console.log("Salary:", emp2.computePay());
 ```
 
----
-
 ## 🧪 Step 7: Run the Application
 
 ```cmd
 node Program.js
 ```
 
----
+
 
 ## 🧠 Expected Learning Output
 
@@ -270,8 +266,6 @@ Students will observe:
 * Runtime decision of `doWork()` and `computePay()`
 
 📌 **This is RUNTIME POLYMORPHISM**
-
----
 
 ## 🧠 Concept Mapping (C# → JavaScript)
 
@@ -284,7 +278,6 @@ Students will observe:
 | Method overriding    | `computePay()` / `doWork()`              |
 | Object class         | `toString()` / `constructor.name`        |
 
----
 
 ## 📝 Lab Assignments (JavaScript Version)
 
@@ -297,9 +290,7 @@ Students will observe:
 4. Convert salary calculation to use **BigInt or Number precision handling**
 
 
-
 > “Languages change.
 > Syntax changes.
 > **Object-oriented thinking does not.**
-
 
