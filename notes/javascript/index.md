@@ -1,6 +1,4 @@
-## Step into the World of Software Magic ✨
-
-**Welcome to the JavaScript world, future solution builder.**
+**Welcome to the JavaScript world.**
 
 Before we talk about code, let me share a quiet truth from the Transflower mindset:
 
