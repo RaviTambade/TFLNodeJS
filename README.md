@@ -98,7 +98,7 @@ You will learn:
 Frontend is not “UI work”.
 It is **communication design**.
 
-## ⚙️ Chapter 6: Backend — The Engine Room
+## 6: Backend — The Engine Room
 
 This is where software **thinks**.
 
