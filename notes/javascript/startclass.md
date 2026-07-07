@@ -1,6 +1,4 @@
-# 🌿 Learning JavaScript Objects & Classes
-
-## *A Transflower Mentor Story from the HR Solution World*
+# JavaScript Objects & Classes
 
 > *“Before software manages data, it manages people.”*
 > And every HR system begins with one fundamental question:
@@ -9,7 +7,7 @@
 Welcome to your **first day as a developer building an HR Solution**.
 
 
-## 👋 Day 1 at Transflower HR Tech Team
+## Day 1 at Transflower HR Tech Team
 
 Dear students,
 
@@ -27,7 +25,7 @@ To do this properly, we must **model real people as software objects**.
 That’s where **JavaScript Classes** come in.
 
 
-## 🔧 Chapter 1: Simple Tools — Functions (Actions Without Identity)
+## 1: Simple Tools — Functions (Actions Without Identity)
 
 Let’s start small.
 
@@ -59,7 +57,7 @@ function exitEmployee(name) {
 > Functions are useful — but they don’t represent *people*.
 
 
-## 🧱 Chapter 2: When HR Needs Real Entities — Classes
+## 2: When HR Needs Real Entities — Classes
 
 In real HR systems, we don’t just *greet* employees.
 We **manage them**.
@@ -72,7 +70,7 @@ An **Employee** has:
 
 That’s where a **Class** is born.
 
-## 👤 Chapter 3: Employee Class — The Foundation of HR Solution
+## 3: Employee Class — The Foundation of HR Solution
 
 ```js
 class Employee {
@@ -112,7 +110,7 @@ emp1.doWork();
 you **hired an employee into your HR system**.
 
 
-## 🧠 Chapter 4: Understanding `this` — Ownership Matters
+## 4: Understanding `this` — Ownership Matters
 
 In HR terms:
 
@@ -132,7 +130,7 @@ Not global.
 Not shared.
 **Personal.**
 
-## 📈 Chapter 5: Specialized Roles — HR Is Never Flat
+## 5: Specialized Roles — HR Is Never Flat
 
 Not all employees are the same.
 
@@ -172,7 +170,7 @@ Exactly.
 This leads naturally to **inheritance** (next lesson).
 
 
-## 🏢 Chapter 6: HR Assets — Modeling Company Resources
+## 6: HR Assets — Modeling Company Resources
 
 HR systems don’t manage only people.
 
@@ -204,7 +202,7 @@ laptop.assign();
 🎯 Now your HR system tracks **resources**, not just humans.
 
 
-## 🧪 Chapter 7: Putting HR System Together
+## 7: Putting HR System Together
 
 ```js
 console.log("Welcome to Transflower HR Solution");
