@@ -190,5 +190,4 @@ A **journey**.
 
 🌱 Step in when you’re ready:
 
-👉 **Welcome to the TFL NodeJS world**
-🔗 [https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md](https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md)
+[https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md](Welcome to the TFL NodeJS world)
