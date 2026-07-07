@@ -158,7 +158,7 @@ You will build:
 > **This repo is not for reading.
 > It is for building, breaking, fixing, and improving.**
 
-## 🎯 Chapter 10: Who This Journey Is For
+## 10: Who This Journey Is For
 
 * 🌱 Aspiring Fullstack Developers
 * 🎓 JavaScript / Node.js / React learners
