@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title> 
+        <script src="scripts/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <button> hide me</button>
+        <hr/>
+        <p id="name">Sumit bhor</p>
+        <p id="email">sumitbhor22@gmail.com</p>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#email").hide() ;
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-# 🧭 Mastering OOP in JavaScript
+# OOP in JavaScript
 
 ## *A Transflower Mentor Story using Employees*
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Update User Profile </title>  
+        <script src="scripts/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <h1>Update USer Profile</h1>
+        <hr/>
+        <table>
+            <tr>
+                <td><label>Id </label></td>
+                <td><input type="number" id="id" name="id" placeholder="Enter Id" required ></td>
+            </tr>
+            <tr>
+                <td><label>First Name </label></td>
+                <td><input type="text" id="firstname" name="firstname" placeholder="Enter firstname" required></td>
+            </tr>
+            <tr>
+                <td><label>Last Name </label></td>
+                <td><input type="text" id="lastname" name="lastname" placeholder="Enter lastname" required></td>
+            </tr> 
+            <tr>
+                <td><label>Email  </label></td>
+                <td><input type="text" id="email" name="email" placeholder="enter email" required></td>
+            </tr>
+            <tr>
+                <td><label> contact number </label></td>
+                <td><input type="number" id="contactNo" name="contactNo" required></td>
+            </tr>
+            <tr>
+                <td><label> city </label></td>
+                <td><input type="text" id="city" name="city" required></td>
+            </tr>
+            <tr>
+                <td><label>  </label></td>
+                <td><button id="btn" name="btn" required>Update</button></td>
+            </tr>
+        </table>   
+
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    console.log("button clicked");
+                    var customer=
+                        {
+                            "id":document.getElementById("id").value,
+                            "firstname":document.getElementById("firstname").value,
+                            "lastname":document.getElementById("lastname").value,
+                            "email":document.getElementById("email").value,
+                            "contactNo":document.getElementById("contactNo").value,
+                            "city":document.getElementById("city").value
+                        }
+                    console.log(customer);
+                    var url ="/api/customers/updatecustomer/"+customer.id ;
+                    $.ajax({
+                        url: url,
+                        type: 'PUT',
+                        contentType: 'application/json',
+                        data: JSON.stringify(customer),
+                        
+                        success: function(){
+                            console.log("data is updated to the server")
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

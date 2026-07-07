@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> demo2</title>
+        <script src="scripts/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <button>send data</button>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    var newCustomer={
+                        "id":4, 
+                        "firstname":"neha",
+                        "lastname":"patel", 
+                        "email":"nehapatel@gmail.com",
+                        "contactnumber":"9876543213",
+                        "city":"bangalore"
+                    }
+                    let url ="/api/register";
+                    $.post(url,newCustomer, function(){
+                        console.log("data is posted to the server")
+                    })
+                })
+            })
+        </script>
+    </body>
+</html>

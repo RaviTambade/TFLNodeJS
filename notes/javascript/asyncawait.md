@@ -1,5 +1,5 @@
  
-# 👨‍🏫 *The Tale of `async` and `await` — The Knights of Clean Code*
+# 👨‍🏫 *async and await in Javascript*
 
 > "In the bustling city of JavaScript, where actions race like messengers through the internet, some heroes prefer to **wait** — not out of laziness, but out of wisdom. These heroes are the `async` Knights and their faithful companion `await`. Together, they brought order to the chaos of asynchronous lands."
 

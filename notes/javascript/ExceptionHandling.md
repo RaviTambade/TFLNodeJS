@@ -1,5 +1,5 @@
 
-# 🧙‍♂️ Mentor Storytelling: Exception Handling in JavaScript
+# Exception Handling in JavaScript
 
 > *“Let me tell you a tale from the realm of code — a story of unexpected events, heroic error rescuers, and graceful recoveries.”*
 
@@ -66,7 +66,6 @@ You can inspect:
 * `error.message` → what went wrong
 * `error.stack` → where it went wrong
 
----
 
 ## 🧹 `finally` — The Cleanup Crew
 
@@ -137,8 +136,6 @@ try {
 
 This makes **large applications** much easier to debug and manage.
 
----
-
 ## ✅ Best Practices from the Mentor’s Toolkit
 
 > *“Even the best warriors need discipline.”*
@@ -178,4 +175,3 @@ Next time something goes wrong…
 Don’t panic. Just catch it.
 
 And carry on. 💪
-

@@ -1,9 +1,7 @@
 
-# Mastering Control in JavaScript — *The Flow of the Code Kingdom*
+# Mastering Control in JavaScript*
 
 > “Every tale needs decisions. Every path needs choices. In the land of JavaScript, control statements are the magic spells that decide **what happens next**.”
-
-
 
 ## 📜 1: The Fork in the Road — **Conditional Statements**
 
@@ -159,5 +157,3 @@ for (let i = 0; i < 5; i++) {
 ## 🧙 Mentor’s Final Word:
 
 > “In JavaScript, controlling the flow is like guiding a river — you build the paths, place the gates, and sometimes dig new channels. The magic of programming lies not just in writing lines, but in guiding the journey.”
-
- 

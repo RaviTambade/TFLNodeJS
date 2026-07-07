@@ -120,7 +120,6 @@ This is **communication**.
 
 * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/ExceptionHandling.md">Exception Handling</a> <!-- Defensive coding -->
 
----
 
 # 🌳 Advanced Level – *Thinking Like a Professional Developer*
 
@@ -141,7 +140,7 @@ This is **communication**.
 * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/prepareJSinterviews.md">JavaScript Interview Preparation</a> <!-- Industry readiness -->
 * <a href="https://github.com/RaviTambade/TFLNodeJS/blob/main/notes/javascript/index.md">JavaScript Notes Index</a> <!-- Knowledge map -->
 
----
+
 
 ## 🎓 Transflower Mentor Insight
 

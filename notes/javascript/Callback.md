@@ -1,6 +1,4 @@
-
- 
-# **“Callbacks, Promises & Async/Await – Understanding the Flow of Time in JavaScript”**
+# **“Callbacks, Promises & Async/Await”**
 
 *"Alright folks, sit back and imagine this: you're ordering food at a restaurant. You don’t just stand in front of the chef until your food is ready, right? You place your order and move on to something else. That’s how JavaScript handles time — non-blocking, asynchronous. Now let me walk you through three key ways JavaScript lets us handle such ‘waiting periods’…"*
 

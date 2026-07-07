@@ -1,4 +1,4 @@
-# 📚 Mentor Storytelling: JavaScript Data Types
+# 📚 JavaScript Data Types
 
 > *“Let’s travel through the kingdom of JavaScript — where every value wears a crown and every data type has a tale.”*
 

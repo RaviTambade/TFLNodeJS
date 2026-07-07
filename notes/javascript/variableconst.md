@@ -1,5 +1,5 @@
 
-# *The Tale of Variables and Constants in JavaScript*
+# *Variables and Constants in JavaScript*
 
 > “Long ago, in the **Kingdom of JavaScript**, every hero needed a way to **store knowledge**, **remember values**, and **lock down truths**. This is the story of the three magical scrolls: `var`, `let`, and `const` — each with its own rules, risks, and rewards.”
 
@@ -131,4 +131,3 @@ hero = {};          // ❌ Error: Cannot reassign
 > “To master JavaScript, first master the art of **variable declaration and scope**. These are the runes that shape logic, memory, and meaning in your code.”
 
 🎒 *“Carry your variables wisely, young learner. For every bug you prevent with proper scoping is one dragon you won’t have to slay later.”*
-

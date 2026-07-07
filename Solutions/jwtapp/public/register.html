@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register new User</title>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Register New User</h1>
+
+    <table>
+        <tr>
+            <td><label>User name</label></td>
+            <td><input type="text" id="username" required></td>
+        </tr>
+
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password" id="password" required></td>
+        </tr>
+
+        <tr>
+            <td><button type="button" id="createBtn">Create Account</button></td>
+            <td><button type="button" id="completeProfileBtn">complete profile</button></td>
+        </tr>
+
+    </table>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#createBtn").click(function () {
+
+                var username = $("#username").val();
+                var password = $("#password").val();
+
+                $.ajax({              
+
+                    url: "/api/credentials/credentials",
+                    method: "post",
+                    data: JSON.stringify({ username: username, password: password }),
+                    contentType: "application/json",
+
+                    success: function (response) {
+                        alert("Account created successfully");
+
+                        // show second table
+
+                    },
+
+                    error: function (error) {
+                        alert("Error creating account");
+                    }
+                });
+
+            });
+
+        });
+
+    </script>
+
+
+
+    <div id="profileSection" style="display:none;">
+
+        <h2>Customer Profile</h2>
+
+        <table>
+
+            <tr>
+                <td><label>Id</label></td>
+                <td><input type="number" id="id"></td>
+            </tr>
+
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text" id="firstname"></td>
+            </tr>
+
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text" id="lastname"></td>
+            </tr>
+
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label>Contact Number</label></td>
+                <td><input type="number" id="contactnumber"></td>
+            </tr>
+
+            <tr>
+                <td><label>City</label></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button type="button" id="submitProfileBtn">Submit Profile</button></td>
+            </tr>
+
+        </table>
+        <script>
+            $(document).ready(function () {
+                $("#submitProfileBtn").click(function () {
+                    var newCustomer = {
+                        "id": $("#id").val(),
+                        "firstname": $("#firstname").val(),
+                        "lastname": $("#lastname").val(),
+                        "email": $("#email").val(),
+                        "contactnumber": $("#contactnumber").val(),
+                        "city": $("#city").val()
+                    };
+
+                    $.ajax({
+                        url: "/api/customers/customers",
+                        method: "post",
+                        contentType: "application/json",
+                        data: JSON.stringify(newCustomer),
+                        
+                        success: function (response) {
+                            alert("Profile submitted successfully");
+                        },
+
+                        error: function (error) {
+                            alert("Error submitting profile");
+                        }
+                    });
+
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#completeProfileBtn").click(function () {
+                    $("#profileSection").show();
+                });
+            });
+        </script>
+    </div>
+
+</body>
+
+</html>

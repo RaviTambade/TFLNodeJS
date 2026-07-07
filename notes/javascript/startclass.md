@@ -100,8 +100,6 @@ class Employee {
 * `this.empId` → unique employee identity
 * Methods → daily employee behavior
 
----
-
 ### 🎬 Creating Real Employees (Objects)
 
 ```js
@@ -134,8 +132,6 @@ Not global.
 Not shared.
 **Personal.**
 
----
-
 ## 📈 Chapter 5: Specialized Roles — HR Is Never Flat
 
 Not all employees are the same.
@@ -146,7 +142,6 @@ Some lead teams.
 
 Let’s extend reality.
 
----
 
 ## 💼 SalesEmployee — Still an Employee, But With Sales
 

@@ -1,5 +1,5 @@
 
-# 🧪 Lab 4 (JavaScript): Object-Oriented Programming with Inheritance & Polymorphism (HR Domain)
+# 🧪 Lab 4: Object-Oriented Programming with Inheritance & Polymorphism (HR Domain)
 Below is the **JavaScript (ES6 / Node.js) conversion** of your **Lab 4**, keeping the **same HR domain, same hierarchy, and same learning outcomes**, just mapped correctly to JavaScript’s OOP model.
 
 ## 🎯 Lab Title
@@ -124,7 +124,6 @@ module.exports = Employee;
 > JavaScript does not have `abstract` keyword.
 > We **enforce abstraction by throwing errors** in base class methods.
 
----
 
 ## 🧩 Step 4: Implement `SalesEmployee` (Inheritance + Override)
 
@@ -170,7 +169,6 @@ module.exports = SalesEmployee;
 * Incentive only if **target is achieved**
 * Salary = Basic + HRA + Incentive (conditional)
 
----
 
 ## 🧩 Step 5: Implement `SalesManager` (Multi-level Inheritance)
 
@@ -255,8 +253,6 @@ console.log("Salary:", emp2.computePay());
 node Program.js
 ```
 
-
-
 ## 🧠 Expected Learning Output
 
 Students will observe:
@@ -293,4 +289,3 @@ Students will observe:
 > “Languages change.
 > Syntax changes.
 > **Object-oriented thinking does not.**
-

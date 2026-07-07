@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Catalog</title> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <h1>Today's Fresh Flowers </h1>
+        <hr/>
+        <button>get flowers</button>
+        <ol id="flowerslist">
+
+        </ol>
+        <para id="para"></para>
+        <script>
+    //     async function getFlowersFromTFLStore() {
+    //             var flowersurl = "/api/flowers";
+    //             try {
+    //                 let response = await fetch(flowersurl);
+
+    //                 if (!response.ok) {
+    //                     throw new Error("Network response was not ok");
+    //                 }
+
+    //                 let flowers = await response.json(); 
+    //                 console.log(flowers);
+
+    //                 let list = document.getElementById("flowerslist");
+    //                 list.innerHTML = "";
+
+    //                 flowers.forEach(flower => {
+    //                     let li = document.createElement("li");
+    //                     li.textContent = flower.name; // adjust key as per API
+    //                     list.appendChild(li);
+    //                 });
+
+    //             } 
+    //             catch (err) {
+    //                 console.log("Error:", err);
+    //             }
+    //     }
+
+    // getFlowersFromTFLStore();
+    $(document).ready(function(){
+
+
+            $("button").click(function(){
+                console.log("button is clicked")
+                var p =document.getElementById("para")
+
+                $.get("/api/flowers",function(data, status){
+                    // for(var i =0;i<data.length;i++)
+                    // {
+                    //     console.log("button is clicked")
+                    //     p.innerHTML =p.innerHTML +"<br/> "  +data[i].name;
+                    // }
+                    flowerslist.innerHTML = "";
+                    data.forEach(flower => {
+                        let li = document.createElement("li");
+                        li.textContent = flower.name; // adjust key as per API
+                        flowerslist.appendChild(li);
+                    });
+                })
+
+            })
+        })
+</script>
+
+    </body>
+</html>
