@@ -10,7 +10,7 @@ We **shape thinking, confidence, and systems understanding**.
 
 This is that journey.
 
-## 🌱 1: The Seed of Curiosity
+## 1: The Seed of Curiosity
 
 ### *Where every developer begins*
 
@@ -29,8 +29,7 @@ And learners stood confused in the middle:
 
 Then came a quiet revolution.
 
-
-## 🔥 2: The Spark — JavaScript Everywhere
+## 2: The Spark — JavaScript Everywhere
 
 That spark was **Node.js**.
 
@@ -50,7 +49,7 @@ This repository exists because of that moment.
 > **This is not just a project repo.
 > It is your map across both lands.**
 
-## 🧠 Chapter 3: Why Transflower Chooses Node.js for Fullstack
+## 3: Why Transflower Chooses Node.js for Fullstack
 
 > *“Imagine a smart home where lights, locks, and music all understand the same command.”*
 
