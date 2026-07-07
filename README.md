@@ -1,4 +1,4 @@
-# 🌉 Fullstack Developer’s Journey
+# Welcome to  Javascript FullStack Development learning
 
 ## From Curiosity → Capability → Creation
 > *“Let me tell you a story.
@@ -10,7 +10,7 @@ We **shape thinking, confidence, and systems understanding**.
 
 This is that journey.
 
-## 🌱 Chapter 1: The Seed of Curiosity
+## 🌱 1: The Seed of Curiosity
 
 ### *Where every developer begins*
 
@@ -30,7 +30,7 @@ And learners stood confused in the middle:
 Then came a quiet revolution.
 
 
-## 🔥 Chapter 2: The Spark — JavaScript Everywhere
+## 🔥 2: The Spark — JavaScript Everywhere
 
 That spark was **Node.js**.
 
@@ -67,7 +67,7 @@ That command is **JavaScript**.
 > We don’t optimize for exams.
 > **We optimize for employability and systems thinking.**
 
-## 👷 Chapter 4: Who Is a Fullstack Developer — Really?
+## 4: Who Is a Fullstack Developer — Really?
 
 > *“A Fullstack Developer is not a superhero.
 > They are a system thinker.”*
@@ -83,7 +83,7 @@ A Fullstack Developer:
 Not mastery of everything.
 **Clarity of connections.**
 
-## 🖼️ Chapter 5: Frontend — The Art of Interaction
+## 5: Frontend — The Art of Interaction
 
 This is where users **feel** your software.
 
@@ -115,7 +115,7 @@ You will build:
 Backend is not about code volume.
 It is about **correctness, reliability, and flow**.
 
-## 🏗️ Chapter 7: Systems, DevOps & Reality
+## 7: Systems, DevOps & Reality
 
 At Transflower, learning is incomplete without **deployment reality**.
 
@@ -129,7 +129,7 @@ You’ll touch:
 > If your app can’t be deployed,
 > it’s still a prototype.
 
-## 🤝 Chapter 8: Collaboration & Professional Growth
+## 8: Collaboration & Professional Growth
 
 Software is a **team sport**.
 
@@ -142,7 +142,7 @@ You’ll practice:
 
 > Skills grow faster in ecosystems, not isolation.
 
-## 📦 Chapter 9: Your Digital Workshop — What You’ll Build
+## 9: Your Digital Workshop — What You’ll Build
 
 This repository is **hands-on by design**.
 
