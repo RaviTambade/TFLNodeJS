@@ -5,7 +5,6 @@
 * **Chai** – assertion library
 * **Supertest** – to test HTTP endpoints
 
----
 
 ## ✅ Step-by-Step Guide
 
@@ -21,7 +20,7 @@ project/
 ├── package.json
 ```
 
----
+
 
 ### 2. 📦 Initialize Project & Install Dependencies
 
@@ -31,7 +30,6 @@ npm install express
 npm install --save-dev mocha chai supertest
 ```
 
----
 
 ### 3. 🚀 REST API Code
 
@@ -52,8 +50,6 @@ if (require.main === module) {
 
 module.exports = app; // for testing
 ```
-
----
 
 #### `data.js` (in-memory data store)
 
@@ -88,8 +84,6 @@ module.exports = {
 };
 ```
 
----
-
 #### `routes.js`
 
 ```js
@@ -123,8 +117,6 @@ router.delete('/users/:id', (req, res) => {
 
 module.exports = router;
 ```
-
----
 
 ### 4. 🧪 Unit Tests
 
@@ -184,8 +176,6 @@ describe('CRUD API /api/users', () => {
 });
 ```
 
----
-
 ### 5. 🏃 Run the Tests
 
 Add this to your `package.json`:
@@ -202,8 +192,6 @@ Then run:
 npm test
 ```
 
----
-
 ### ✅ Output
 
 You'll see output like this:
@@ -217,7 +205,3 @@ CRUD API /api/users
   ✓ should update an existing user
   ✓ should delete a user
 ```
-
-
-
- 

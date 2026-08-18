@@ -5,7 +5,6 @@ Node.js app for Selenium automation testing** involves using the **`selenium-web
 
 ## ✅ Step-by-Step Guide to Selenium Automation in Node.js
 
----
 
 ### 📦 1. Install Required Packages
 
@@ -20,7 +19,6 @@ You may also install **chromedriver** (optional but recommended for stability):
 npm install chromedriver
 ```
 
----
 
 ### 📁 Project Structure
 
@@ -29,8 +27,6 @@ selenium-node-app/
 ├── test.js           # Your selenium automation script
 ├── package.json
 ```
-
----
 
 ### ✅ 2. Sample Automation Script (`test.js`)
 
@@ -64,8 +60,6 @@ async function runTest() {
 runTest();
 ```
 
----
-
 ### 🖥️ 3. Run the Script
 
 Make sure Chrome is installed, then run:
@@ -82,8 +76,6 @@ It will:
 * Wait for results
 * Close the browser
 
----
-
 ### ⚙️ 4. Run Headless (optional)
 
 If you want to run tests **without opening a visible browser window**, use headless mode:
@@ -94,8 +86,6 @@ let options = new chrome.Options().headless();
 
 let driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
 ```
-
----
 
 ### 🧪 5. Combine with Mocha for Test Suites
 
@@ -152,8 +142,6 @@ Run the test:
 npm test
 ```
 
----
-
 ## ✅ Summary of Key Tools
 
 | Tool                 | Purpose                       |
@@ -173,8 +161,6 @@ We'll assume the login form has the following fields:
 * Submit button → `<button id="loginBtn">`
 * Message area → `<div id="message">` (for success/error)
 
----
-
 ## ✅ Common Selenium Test Cases for Login Form
 
 ### 1. **Successful Login with Valid Credentials**
@@ -192,8 +178,6 @@ it('should login with valid credentials', async () => {
 });
 ```
 
----
-
 ### 2. **Login Attempt with Invalid Credentials**
 
 ```js
@@ -208,8 +192,6 @@ it('should show error for invalid credentials', async () => {
   expect(message).to.include('Invalid email or password');
 });
 ```
-
----
 
 ### 3. **Empty Fields Validation**
 
@@ -226,8 +208,6 @@ it('should show validation message if fields are empty', async () => {
 });
 ```
 
----
-
 ### 4. **Invalid Email Format**
 
 ```js
@@ -242,8 +222,6 @@ it('should show error for invalid email format', async () => {
 });
 ```
 
----
-
 ### 5. **Password Field Masking**
 
 ```js
@@ -254,8 +232,6 @@ it('should mask the password input', async () => {
 });
 ```
 
----
-
 ## 🧪 Extra Useful Checks (Optional)
 
 * **Remember Me checkbox**
@@ -264,7 +240,6 @@ it('should mask the password input', async () => {
 * **Redirection to dashboard/home page**
 * **Session/cookie validation after login**
 
----
 
 ## ✅ Test Summary Table
 
@@ -276,7 +251,3 @@ it('should mask the password input', async () => {
 | Invalid Email Format            | Tests email pattern validation    |
 | Password Masking                | Ensures password is hidden        |
 | Login Button Click or Enter Key | Confirms form submission behavior |
-
----
-
-Would you like me to package these into a full working **Mocha + Selenium test suite** for local HTML or a live demo app?

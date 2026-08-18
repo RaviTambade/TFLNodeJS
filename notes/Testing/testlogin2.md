@@ -158,8 +158,3 @@ npm test
 
 Selenium will launch the browser, navigate to your locally served login page, and execute the login form tests!
 
----
-
-This setup should give you a local web server for testing, making it easy to perform end-to-end tests on the **login form** using **Selenium**.
-
- 
