@@ -5,16 +5,14 @@
 > *“Code is read far more often than it is written.”*
 > — Transflower Mentor Note
 
-At Transflower, **clean code is not cosmetic**.
-It is about:
+At Transflower, **clean code is not cosmetic**. It is about:
 
 * Maintainability
 * Team collaboration
 * Architectural clarity
 * Long-term employability
 
-Messy code doesn’t just slow computers —
-👉 **it slows teams, careers, and systems**.
+Messy code doesn’t just slow computers — **it slows teams, careers, and systems**.
 
 
 ## ✅ Best Practice #4: Clean Code & Easy Readability

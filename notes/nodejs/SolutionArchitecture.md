@@ -1,6 +1,3 @@
-This is a solid explanation of the **Layered Architecture** best practice in Node.js, and it's particularly helpful for building clean, maintainable, and scalable backend applications. Here's a brief recap and additional practical advice on implementing each layer:
-
----
 
 ### ✅ **Layered Architecture Summary**
 

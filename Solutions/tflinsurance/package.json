@@ -1,0 +1,19 @@
+{
+  "name": "insurance-node-testing-sample",
+  "version": "1.0.0",
+  "description": "Sample Node.js Express REST API demonstrating routing, controllers, services and testing for an insurance application.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.0"
+  }
+}

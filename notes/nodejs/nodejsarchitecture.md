@@ -2,6 +2,38 @@
 
 Node.js architecture is designed to handle asynchronous operations efficiently and scale well with modern applications. Here’s a detailed overview of its architecture:
 
+Here's a simple representation of how a typical Node.js application might be structured:
+
+```
++----------------------+
+|    Node.js Process   |
+|----------------------|
+|    Event Loop        |
+|    +--------------+  |
+|    |  Event Queue |  |
+|    +--------------+  |
+|          |           |
+|  +----------------+  |
+|  | Callback Queue |  |
+|  +----------------+  |
+|          |           |
+|   +--------------+   |
+|   | Worker Pool  |   |
+|   +--------------+   |
+|                      |
++----------------------+
+           |
+           |
+    +----------------+
+    |    V8 Engine   |
+    +----------------+
+           |
+           |
+   +------------------+
+   |   JavaScript Code|
+   +------------------+
+```
+
 ### 1. **Single-Threaded Event Loop**
 
 Node.js operates on a single-threaded event loop model. This means that it uses a single main thread to handle multiple operations concurrently, thanks to non-blocking I/O.
@@ -59,15 +91,12 @@ Node.js follows an event-driven architecture where applications are designed to 
 
 That's a great approach! Explaining **Node.js architecture** and its **internal execution model** using a **hotel analogy** makes it more relatable and easier to understand. Below is a structured explanation using your analogy:
 
----
 
 ## Node.js Architecture Explained with a Hotel Analogy 
 
 ### 🎯 Goal
 
 Help learners understand how Node.js handles concurrent operations using **non-blocking I/O**, **event loop**, **callback queue**, **libuv**, and **thread pool**, through a **hotel kitchen analogy**.
-
----
 
 ## 🧠 Key Components in Node.js (Technical Terms)
 
@@ -81,7 +110,6 @@ Help learners understand how Node.js handles concurrent operations using **non-b
 | Non-blocking I/O             | Waiter not waiting for food     |
 | libuv                        | Hotel management system         |
 
----
 
 ## 🍽️ Step-by-Step Analogy of How Node.js Works
 
@@ -115,7 +143,7 @@ Help learners understand how Node.js handles concurrent operations using **non-b
 
 * The receptionist picks up the ready dish from the **callback queue** and delivers it to the guest (sends the response to the client).
 
----
+
 
 ## 🔁 Visual Flow
 
@@ -123,8 +151,6 @@ Help learners understand how Node.js handles concurrent operations using **non-b
 Guest -> Reception (Event Loop) -> Chef (Thread Pool via libuv) -> Waiter (Non-blocking) 
       -> Callback Queue (Ready Dishes) -> Reception (Callback Execution) -> Guest (Response)
 ```
-
----
 
 ## 🧰 Internal Node.js Components Involved
 
@@ -136,15 +162,11 @@ Guest -> Reception (Event Loop) -> Chef (Thread Pool via libuv) -> Waiter (Non-b
 | **Callback Queue**         | Stores callbacks once async tasks finish           |
 | **JavaScript Engine (V8)** | Executes JS code and callbacks                     |
 
----
-
 ## 📌 Why This Model Works So Well
 
 * **Efficient for I/O-bound tasks**: Like database reads, file access, or APIs.
 * **Low resource consumption**: Only one main thread; background threads are used only when needed.
 * **Scalable**: Easily handles thousands of concurrent requests with fewer system resources.
-
----
 
 ## ✅ Summary
 
@@ -156,7 +178,6 @@ Node.js behaves like a smart hotel:
 * Guests are served fast without waiting for one another’s orders to complete.
 
 This **non-blocking architecture** makes Node.js **ideal for real-time applications, APIs, and microservices**.
-
 
 **Key Concepts:**
 
@@ -171,40 +192,6 @@ Node.js provides built-in modules for networking and HTTP server functionality, 
 - **HTTP Module:** Used to create HTTP servers and clients. This module allows handling HTTP requests and responses.
 
 - **Streams:** Node.js supports streams for efficient handling of data, especially useful for I/O operations like reading and writing files or network communication.
-
-### Example Architecture
-
-Here's a simple representation of how a typical Node.js application might be structured:
-
-```
-+----------------------+
-|    Node.js Process   |
-|----------------------|
-|    Event Loop        |
-|    +--------------+  |
-|    |  Event Queue |  |
-|    +--------------+  |
-|          |           |
-|  +----------------+  |
-|  | Callback Queue |  |
-|  +----------------+  |
-|          |           |
-|   +--------------+   |
-|   | Worker Pool  |   |
-|   +--------------+   |
-|                      |
-+----------------------+
-           |
-           |
-    +----------------+
-    |    V8 Engine   |
-    +----------------+
-           |
-           |
-   +------------------+
-   |   JavaScript Code|
-   +------------------+
-```
 
 ### Summary
 

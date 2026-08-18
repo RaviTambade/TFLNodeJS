@@ -1,5 +1,3 @@
- 
-
 ## Callback Mechanism in Node.js – Learning to Think Asynchronously
 
 > *“If you understand callbacks, you understand why Node.js exists.”*
@@ -27,13 +25,7 @@ But in real systems:
 
 👉 **take time**.
 
-If Node.js waited for each of these tasks to finish, the **event loop would freeze** and scalability would collapse.
-
-So Node.js asks a different question:
-
-> “Why wait, when I can be notified later?”
-
-That notification mechanism is a **callback**.
+If Node.js waited for each of these tasks to finish, the **event loop would freeze** and scalability would collapse. So Node.js asks a different question:  “Why wait, when I can be notified later?” That notification mechanism is a **callback**.
 
 ## 2️⃣ What Is a Callback (Transflower Definition)
 
